@@ -1,0 +1,1210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C39616F1C85F4F1006A8113 /* YKSAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C3961531C85F4F1006A8113 /* YKSAddress.h */; };
+		2C3961701C85F4F1006A8113 /* YKSAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3961541C85F4F1006A8113 /* YKSAddress.m */; };
+		2C3961711C85F4F1006A8113 /* YKSAmenity.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C3961551C85F4F1006A8113 /* YKSAmenity.h */; };
+		2C3961721C85F4F1006A8113 /* YKSAmenity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3961561C85F4F1006A8113 /* YKSAmenity.m */; };
+		2C3961731C85F4F1006A8113 /* YKSContact.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C3961571C85F4F1006A8113 /* YKSContact.h */; };
+		2C3961741C85F4F1006A8113 /* YKSContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3961581C85F4F1006A8113 /* YKSContact.m */; };
+		2C3961751C85F4F1006A8113 /* YKSHotel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C3961591C85F4F1006A8113 /* YKSHotel.h */; };
+		2C3961761C85F4F1006A8113 /* YKSHotel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C39615A1C85F4F1006A8113 /* YKSHotel.m */; };
+		2C3961771C85F4F1006A8113 /* YKSLevelLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C39615B1C85F4F1006A8113 /* YKSLevelLogger.h */; };
+		2C3961781C85F4F1006A8113 /* YKSLevelLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C39615C1C85F4F1006A8113 /* YKSLevelLogger.m */; };
+		2C3961791C85F4F1006A8113 /* YKSModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C39615D1C85F4F1006A8113 /* YKSModel.h */; };
+		2C39617A1C85F4F1006A8113 /* YKSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C39615E1C85F4F1006A8113 /* YKSModel.m */; };
+		2C39617B1C85F4F1006A8113 /* YKSPhone.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C39615F1C85F4F1006A8113 /* YKSPhone.h */; };
+		2C39617C1C85F4F1006A8113 /* YKSPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3961601C85F4F1006A8113 /* YKSPhone.m */; };
+		2C39617D1C85F4F1006A8113 /* YKSPrimaryYMan.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C3961611C85F4F1006A8113 /* YKSPrimaryYMan.h */; };
+		2C39617E1C85F4F1006A8113 /* YKSPrimaryYMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3961621C85F4F1006A8113 /* YKSPrimaryYMan.m */; };
+		2C3961811C85F4F1006A8113 /* YKSStay.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C3961651C85F4F1006A8113 /* YKSStay.h */; };
+		2C3961821C85F4F1006A8113 /* YKSStay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3961661C85F4F1006A8113 /* YKSStay.m */; };
+		2C3961831C85F4F1006A8113 /* YKSStayShare.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C3961671C85F4F1006A8113 /* YKSStayShare.h */; };
+		2C3961841C85F4F1006A8113 /* YKSStayShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3961681C85F4F1006A8113 /* YKSStayShare.m */; };
+		2C3961851C85F4F1006A8113 /* YKSUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C3961691C85F4F1006A8113 /* YKSUser.h */; };
+		2C3961861C85F4F1006A8113 /* YKSUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C39616A1C85F4F1006A8113 /* YKSUser.m */; };
+		2C3961871C85F4F1006A8113 /* YKSUserInvite.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C39616B1C85F4F1006A8113 /* YKSUserInvite.h */; };
+		2C3961881C85F4F1006A8113 /* YKSUserInvite.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C39616C1C85F4F1006A8113 /* YKSUserInvite.m */; };
+		2C3961891C85F4F1006A8113 /* YKSWeather.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C39616D1C85F4F1006A8113 /* YKSWeather.h */; };
+		2C39618A1C85F4F1006A8113 /* YKSWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C39616E1C85F4F1006A8113 /* YKSWeather.m */; };
+		2CC777881C922DB900C508F3 /* YKSInternalConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC777871C922DB900C508F3 /* YKSInternalConstants.h */; };
+		2CC7778D1C92317700C508F3 /* YKSBinaryHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC777891C92317700C508F3 /* YKSBinaryHelper.h */; };
+		2CC7778E1C92317700C508F3 /* YKSBinaryHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7778A1C92317700C508F3 /* YKSBinaryHelper.m */; };
+		2CC7778F1C92317700C508F3 /* YKSDeviceHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC7778B1C92317700C508F3 /* YKSDeviceHelper.h */; };
+		2CC777901C92317700C508F3 /* YKSDeviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7778C1C92317700C508F3 /* YKSDeviceHelper.m */; };
+		2CE61C8A1C86030A00284A84 /* YKSSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE61C6E1C86030A00284A84 /* YKSSession.h */; };
+		2CE61C8B1C86030A00284A84 /* YKSSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE61C6F1C86030A00284A84 /* YKSSession.m */; };
+		3F6D61A81BF528B400857C0E /* YKSDEVRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D60481BF528B400857C0E /* YKSDEVRequestOperationManager.h */; };
+		3F6D61A91BF528B400857C0E /* YKSDEVRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D60491BF528B400857C0E /* YKSDEVRequestOperationManager.m */; };
+		3F6D61AA1BF528B400857C0E /* YKSHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D604A1BF528B400857C0E /* YKSHTTPClient.h */; };
+		3F6D61AB1BF528B400857C0E /* YKSHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D604B1BF528B400857C0E /* YKSHTTPClient.m */; };
+		3F6D61AC1BF528B400857C0E /* YKSPRODRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D604C1BF528B400857C0E /* YKSPRODRequestOperationManager.h */; };
+		3F6D61AD1BF528B400857C0E /* YKSPRODRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D604D1BF528B400857C0E /* YKSPRODRequestOperationManager.m */; };
+		3F6D61AE1BF528B400857C0E /* YKSQARequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D604E1BF528B400857C0E /* YKSQARequestOperationManager.h */; };
+		3F6D61AF1BF528B400857C0E /* YKSQARequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D604F1BF528B400857C0E /* YKSQARequestOperationManager.m */; };
+		3F6D61B01BF528B400857C0E /* YKSRequestSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D60501BF528B400857C0E /* YKSRequestSerializer.h */; };
+		3F6D61B11BF528B400857C0E /* YKSRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D60511BF528B400857C0E /* YKSRequestSerializer.m */; };
+		3F6D61B21BF528B400857C0E /* YKSResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D60521BF528B400857C0E /* YKSResponseSerializer.h */; };
+		3F6D61B31BF528B400857C0E /* YKSResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D60531BF528B400857C0E /* YKSResponseSerializer.m */; };
+		3F6D61CE1BF528B400857C0E /* YKSHotelRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D60701BF528B400857C0E /* YKSHotelRequest.h */; };
+		3F6D61CF1BF528B400857C0E /* YKSHotelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D60711BF528B400857C0E /* YKSHotelRequest.m */; };
+		3F6D61D01BF528B400857C0E /* YKSRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D60721BF528B400857C0E /* YKSRequest.h */; };
+		3F6D61D11BF528B400857C0E /* YKSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D60731BF528B400857C0E /* YKSRequest.m */; };
+		3F6D61D21BF528B400857C0E /* YKSSessionRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D60741BF528B400857C0E /* YKSSessionRequest.h */; };
+		3F6D61D31BF528B400857C0E /* YKSSessionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D60751BF528B400857C0E /* YKSSessionRequest.m */; };
+		3F6D61D41BF528B400857C0E /* YKSUserRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D60761BF528B400857C0E /* YKSUserRequest.h */; };
+		3F6D61D51BF528B400857C0E /* YKSUserRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D60771BF528B400857C0E /* YKSUserRequest.m */; };
+		3F6D61D61BF528B400857C0E /* YKSAPIManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D60781BF528B400857C0E /* YKSAPIManager.h */; };
+		3F6D61D71BF528B400857C0E /* YKSAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D60791BF528B400857C0E /* YKSAPIManager.m */; };
+		3F6D61D91BF528B400857C0E /* YKSSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D607B1BF528B400857C0E /* YKSSessionManager.h */; };
+		3F6D61DA1BF528B400857C0E /* YKSSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D607C1BF528B400857C0E /* YKSSessionManager.m */; };
+		3F6D61DB1BF528B400857C0E /* ConnectionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D607E1BF528B400857C0E /* ConnectionManager.h */; };
+		3F6D61DC1BF528B400857C0E /* ConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D607F1BF528B400857C0E /* ConnectionManager.m */; };
+		3F6D61DD1BF528B400857C0E /* GuestAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D60801BF528B400857C0E /* GuestAuth.h */; };
+		3F6D61DE1BF528B400857C0E /* GuestAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D60811BF528B400857C0E /* GuestAuth.m */; };
+		3F6D61DF1BF528B400857C0E /* UserStay.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D60821BF528B400857C0E /* UserStay.h */; };
+		3F6D61E01BF528B400857C0E /* UserStay.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D60831BF528B400857C0E /* UserStay.m */; };
+		3F6D61E11BF528B400857C0E /* YBLEManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D60841BF528B400857C0E /* YBLEManager.h */; };
+		3F6D61E21BF528B400857C0E /* YBLEManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D60851BF528B400857C0E /* YBLEManager.m */; };
+		3F6D61E31BF528B400857C0E /* YikesBLEConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D60861BF528B400857C0E /* YikesBLEConstants.h */; };
+		3F6D61E41BF528B400857C0E /* YLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D60871BF528B400857C0E /* YLink.h */; };
+		3F6D61E51BF528B400857C0E /* YLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D60881BF528B400857C0E /* YLink.m */; };
+		3F6D61E61BF528B400857C0E /* YMan.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D60891BF528B400857C0E /* YMan.h */; };
+		3F6D61E71BF528B400857C0E /* YMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D608A1BF528B400857C0E /* YMan.m */; };
+		3F6D61EB1BF528B400857C0E /* YKSDebugConsoleBLETriangleActiveCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D60901BF528B400857C0E /* YKSDebugConsoleBLETriangleActiveCell.h */; };
+		3F6D61EC1BF528B400857C0E /* YKSDebugConsoleBLETriangleActiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D60911BF528B400857C0E /* YKSDebugConsoleBLETriangleActiveCell.m */; };
+		3F6D61ED1BF528B400857C0E /* YKSDebugConsoleBLETriangleFinishedCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D60921BF528B400857C0E /* YKSDebugConsoleBLETriangleFinishedCell.h */; };
+		3F6D61EE1BF528B400857C0E /* YKSDebugConsoleBLETriangleFinishedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D60931BF528B400857C0E /* YKSDebugConsoleBLETriangleFinishedCell.m */; };
+		3F6D61EF1BF528B400857C0E /* YKSRequiredHardwareTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D60941BF528B400857C0E /* YKSRequiredHardwareTableViewCell.h */; };
+		3F6D61F01BF528B400857C0E /* YKSRequiredHardwareTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D60951BF528B400857C0E /* YKSRequiredHardwareTableViewCell.m */; };
+		3F6D61F11BF528B400857C0E /* YKSScanningYManTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D60961BF528B400857C0E /* YKSScanningYManTableViewCell.h */; };
+		3F6D61F21BF528B400857C0E /* YKSScanningYManTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D60971BF528B400857C0E /* YKSScanningYManTableViewCell.m */; };
+		3F6D61F31BF528B400857C0E /* BLETriangleConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D60991BF528B400857C0E /* BLETriangleConnection.h */; };
+		3F6D61F41BF528B400857C0E /* BLETriangleConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D609A1BF528B400857C0E /* BLETriangleConnection.m */; };
+		3F6D61F51BF528B400857C0E /* YKSYManConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D609B1BF528B400857C0E /* YKSYManConnection.h */; };
+		3F6D61F61BF528B400857C0E /* YKSYManConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D609C1BF528B400857C0E /* YKSYManConnection.m */; };
+		3F6D61F91BF528B400857C0E /* YKSDebugConsoleViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D609F1BF528B400857C0E /* YKSDebugConsoleViewController.h */; };
+		3F6D61FA1BF528B400857C0E /* YKSDebugConsoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D60A01BF528B400857C0E /* YKSDebugConsoleViewController.m */; };
+		3F6D61FB1BF528B400857C0E /* YKSDebugManager+BLEConnectionsSimulation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D60A11BF528B400857C0E /* YKSDebugManager+BLEConnectionsSimulation.h */; };
+		3F6D61FC1BF528B400857C0E /* YKSDebugManager+BLEConnectionsSimulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D60A21BF528B400857C0E /* YKSDebugManager+BLEConnectionsSimulation.m */; };
+		3F6D61FD1BF528B400857C0E /* YKSDebugManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D60A31BF528B400857C0E /* YKSDebugManager.h */; };
+		3F6D61FE1BF528B400857C0E /* YKSDebugManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D60A41BF528B400857C0E /* YKSDebugManager.m */; };
+		3F6D61FF1BF528B400857C0E /* YKSRequiredHardwareNotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D60A51BF528B400857C0E /* YKSRequiredHardwareNotificationCenter.h */; };
+		3F6D62001BF528B400857C0E /* YKSRequiredHardwareNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D60A61BF528B400857C0E /* YKSRequiredHardwareNotificationCenter.m */; };
+		3F6D62011BF528B400857C0E /* YKSRequiredHardwareViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D60A71BF528B400857C0E /* YKSRequiredHardwareViewController.h */; };
+		3F6D62021BF528B400857C0E /* YKSRequiredHardwareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D60A81BF528B400857C0E /* YKSRequiredHardwareViewController.m */; };
+		3F6D62031BF528B400857C0E /* YKSRSSIHistogramViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D60A91BF528B400857C0E /* YKSRSSIHistogramViewController.h */; };
+		3F6D62041BF528B400857C0E /* YKSRSSIHistogramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D60AA1BF528B400857C0E /* YKSRSSIHistogramViewController.m */; };
+		3F6D62051BF528B400857C0E /* YKSTablesConnectionsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D60AB1BF528B400857C0E /* YKSTablesConnectionsViewController.h */; };
+		3F6D62061BF528B400857C0E /* YKSTablesConnectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D60AC1BF528B400857C0E /* YKSTablesConnectionsViewController.m */; };
+		3F6D62071BF528B400857C0E /* YKSYManTableConnectionsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D60AD1BF528B400857C0E /* YKSYManTableConnectionsViewController.h */; };
+		3F6D62081BF528B400857C0E /* YKSYManTableConnectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D60AE1BF528B400857C0E /* YKSYManTableConnectionsViewController.m */; };
+		3F6D62AB1BF528B400857C0E /* YKSErrorDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D616A1BF528B400857C0E /* YKSErrorDetector.h */; };
+		3F6D62AC1BF528B400857C0E /* YKSErrorDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D616B1BF528B400857C0E /* YKSErrorDetector.m */; };
+		3F6D62AD1BF528B400857C0E /* YKSErrorReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D616C1BF528B400857C0E /* YKSErrorReporter.h */; };
+		3F6D62AE1BF528B400857C0E /* YKSErrorReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D616D1BF528B400857C0E /* YKSErrorReporter.m */; };
+		3F6D62AF1BF528B400857C0E /* YikesEngineMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D616F1BF528B400857C0E /* YikesEngineMP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F6D62B01BF528B400857C0E /* YikesEngineMP.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D61701BF528B400857C0E /* YikesEngineMP.m */; };
+		3F6D62C21BF528B400857C0E /* YKSLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D61831BF528B400857C0E /* YKSLocationManager.h */; };
+		3F6D62C31BF528B400857C0E /* YKSLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D61841BF528B400857C0E /* YKSLocationManager.m */; };
+		3F6D62C41BF528B400857C0E /* YMotionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D61861BF528B400857C0E /* YMotionManager.h */; };
+		3F6D62C51BF528B400857C0E /* YMotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D61871BF528B400857C0E /* YMotionManager.m */; };
+		3F6D62C61BF528B400857C0E /* MultiYManGAuthDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D61891BF528B400857C0E /* MultiYManGAuthDispatcher.h */; };
+		3F6D62C71BF528B400857C0E /* MultiYManGAuthDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D618A1BF528B400857C0E /* MultiYManGAuthDispatcher.m */; };
+		3F6D62C81BF528B400857C0E /* PrimaryYManDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D618B1BF528B400857C0E /* PrimaryYManDispatcher.h */; };
+		3F6D62C91BF528B400857C0E /* PrimaryYManDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D618C1BF528B400857C0E /* PrimaryYManDispatcher.m */; };
+		3F6D62CA1BF528B400857C0E /* YKSFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D618D1BF528B400857C0E /* YKSFileLogger.h */; };
+		3F6D62CB1BF528B400857C0E /* YKSFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D618E1BF528B400857C0E /* YKSFileLogger.m */; };
+		3F6D62CC1BF528B400857C0E /* YKSYManReporterTimeInterval.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D618F1BF528B400857C0E /* YKSYManReporterTimeInterval.h */; };
+		3F6D62CD1BF528B400857C0E /* YKSYManReporterTimeInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D61901BF528B400857C0E /* YKSYManReporterTimeInterval.m */; };
+		3F6D62CE1BF528B400857C0E /* YLinkReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D61911BF528B400857C0E /* YLinkReporter.h */; };
+		3F6D62CF1BF528B400857C0E /* YLinkReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D61921BF528B400857C0E /* YLinkReporter.m */; };
+		3F6D62D01BF528B400857C0E /* YManReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D61931BF528B400857C0E /* YManReporter.h */; };
+		3F6D62D11BF528B400857C0E /* YManReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D61941BF528B400857C0E /* YManReporter.m */; };
+		3F6D62D21BF528B400857C0E /* DebugViewStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6D61961BF528B400857C0E /* DebugViewStoryboard.storyboard */; };
+		3F6D62D31BF528B400857C0E /* YKSServicesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D61981BF528B400857C0E /* YKSServicesManager.h */; };
+		3F6D62D41BF528B400857C0E /* YKSServicesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D61991BF528B400857C0E /* YKSServicesManager.m */; };
+		3F6D62DB1BF528B400857C0E /* YKSError+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D61A11BF528B400857C0E /* YKSError+Util.h */; };
+		3F6D62DC1BF528B400857C0E /* YKSError+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D61A21BF528B400857C0E /* YKSError+Util.m */; };
+		3F6D62DF1BF528B400857C0E /* YKSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D61A61BF528B400857C0E /* YKSLogger.h */; };
+		3F6D62E01BF528B400857C0E /* YKSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D61A71BF528B400857C0E /* YKSLogger.m */; };
+		3F6D62E51BF52B5800857C0E /* YikesEngineMP-PrefixHeader.pch in Headers */ = {isa = PBXBuildFile; fileRef = 3F6D62E41BF52B5800857C0E /* YikesEngineMP-PrefixHeader.pch */; };
+		3F6D62E71BF52BEF00857C0E /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6D62E61BF52BEF00857C0E /* ReplayKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		3F6D62E91BF52BF700857C0E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6D62E81BF52BF700857C0E /* libz.tbd */; };
+		56D66453FEB72A9053CA3178 /* Pods_YikesEngineMP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0407DD3B529E7DA7E4490FE /* Pods_YikesEngineMP.framework */; };
+		C3C0581C1DA71E2100407687 /* YikesEngineMPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C0581B1DA71E2100407687 /* YikesEngineMPTests.swift */; };
+		C3C0581E1DA71E2100407687 /* YikesEngineMP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6D5FF61BF5272E00857C0E /* YikesEngineMP.framework */; };
+		C897ABBC0FA62A90D5D55FD9 /* Pods_YikesEngineMPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2385523F6C2845D6AC6DAB85 /* Pods_YikesEngineMPTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3C0581F1DA71E2100407687 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F6D5FED1BF5272E00857C0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F6D5FF51BF5272E00857C0E;
+			remoteInfo = YikesEngineMP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2385523F6C2845D6AC6DAB85 /* Pods_YikesEngineMPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YikesEngineMPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28AC65051A9EAE28AC841183 /* Pods-YikesEngineMP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YikesEngineMP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YikesEngineMP/Pods-YikesEngineMP.debug.xcconfig"; sourceTree = "<group>"; };
+		2C3961531C85F4F1006A8113 /* YKSAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSAddress.h; sourceTree = "<group>"; };
+		2C3961541C85F4F1006A8113 /* YKSAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSAddress.m; sourceTree = "<group>"; };
+		2C3961551C85F4F1006A8113 /* YKSAmenity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSAmenity.h; sourceTree = "<group>"; };
+		2C3961561C85F4F1006A8113 /* YKSAmenity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSAmenity.m; sourceTree = "<group>"; };
+		2C3961571C85F4F1006A8113 /* YKSContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSContact.h; sourceTree = "<group>"; };
+		2C3961581C85F4F1006A8113 /* YKSContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSContact.m; sourceTree = "<group>"; };
+		2C3961591C85F4F1006A8113 /* YKSHotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSHotel.h; sourceTree = "<group>"; };
+		2C39615A1C85F4F1006A8113 /* YKSHotel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSHotel.m; sourceTree = "<group>"; };
+		2C39615B1C85F4F1006A8113 /* YKSLevelLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSLevelLogger.h; sourceTree = "<group>"; };
+		2C39615C1C85F4F1006A8113 /* YKSLevelLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSLevelLogger.m; sourceTree = "<group>"; };
+		2C39615D1C85F4F1006A8113 /* YKSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSModel.h; sourceTree = "<group>"; };
+		2C39615E1C85F4F1006A8113 /* YKSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSModel.m; sourceTree = "<group>"; };
+		2C39615F1C85F4F1006A8113 /* YKSPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSPhone.h; sourceTree = "<group>"; };
+		2C3961601C85F4F1006A8113 /* YKSPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSPhone.m; sourceTree = "<group>"; };
+		2C3961611C85F4F1006A8113 /* YKSPrimaryYMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSPrimaryYMan.h; sourceTree = "<group>"; };
+		2C3961621C85F4F1006A8113 /* YKSPrimaryYMan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSPrimaryYMan.m; sourceTree = "<group>"; };
+		2C3961651C85F4F1006A8113 /* YKSStay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSStay.h; sourceTree = "<group>"; };
+		2C3961661C85F4F1006A8113 /* YKSStay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSStay.m; sourceTree = "<group>"; };
+		2C3961671C85F4F1006A8113 /* YKSStayShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSStayShare.h; sourceTree = "<group>"; };
+		2C3961681C85F4F1006A8113 /* YKSStayShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSStayShare.m; sourceTree = "<group>"; };
+		2C3961691C85F4F1006A8113 /* YKSUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSUser.h; sourceTree = "<group>"; };
+		2C39616A1C85F4F1006A8113 /* YKSUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSUser.m; sourceTree = "<group>"; };
+		2C39616B1C85F4F1006A8113 /* YKSUserInvite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSUserInvite.h; sourceTree = "<group>"; };
+		2C39616C1C85F4F1006A8113 /* YKSUserInvite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSUserInvite.m; sourceTree = "<group>"; };
+		2C39616D1C85F4F1006A8113 /* YKSWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSWeather.h; sourceTree = "<group>"; };
+		2C39616E1C85F4F1006A8113 /* YKSWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSWeather.m; sourceTree = "<group>"; };
+		2CC777871C922DB900C508F3 /* YKSInternalConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YKSInternalConstants.h; path = ../../../yikesenginemp/YikesEngineMP/Headers/YKSInternalConstants.h; sourceTree = "<group>"; };
+		2CC777891C92317700C508F3 /* YKSBinaryHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSBinaryHelper.h; sourceTree = "<group>"; };
+		2CC7778A1C92317700C508F3 /* YKSBinaryHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSBinaryHelper.m; sourceTree = "<group>"; };
+		2CC7778B1C92317700C508F3 /* YKSDeviceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSDeviceHelper.h; sourceTree = "<group>"; };
+		2CC7778C1C92317700C508F3 /* YKSDeviceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSDeviceHelper.m; sourceTree = "<group>"; };
+		2CE61C6E1C86030A00284A84 /* YKSSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSSession.h; sourceTree = "<group>"; };
+		2CE61C6F1C86030A00284A84 /* YKSSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSSession.m; sourceTree = "<group>"; };
+		3F6D5FF61BF5272E00857C0E /* YikesEngineMP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YikesEngineMP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6D5FFB1BF5272E00857C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6D60481BF528B400857C0E /* YKSDEVRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSDEVRequestOperationManager.h; sourceTree = "<group>"; };
+		3F6D60491BF528B400857C0E /* YKSDEVRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSDEVRequestOperationManager.m; sourceTree = "<group>"; };
+		3F6D604A1BF528B400857C0E /* YKSHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSHTTPClient.h; sourceTree = "<group>"; };
+		3F6D604B1BF528B400857C0E /* YKSHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSHTTPClient.m; sourceTree = "<group>"; };
+		3F6D604C1BF528B400857C0E /* YKSPRODRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSPRODRequestOperationManager.h; sourceTree = "<group>"; };
+		3F6D604D1BF528B400857C0E /* YKSPRODRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSPRODRequestOperationManager.m; sourceTree = "<group>"; };
+		3F6D604E1BF528B400857C0E /* YKSQARequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSQARequestOperationManager.h; sourceTree = "<group>"; };
+		3F6D604F1BF528B400857C0E /* YKSQARequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSQARequestOperationManager.m; sourceTree = "<group>"; };
+		3F6D60501BF528B400857C0E /* YKSRequestSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSRequestSerializer.h; sourceTree = "<group>"; };
+		3F6D60511BF528B400857C0E /* YKSRequestSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSRequestSerializer.m; sourceTree = "<group>"; };
+		3F6D60521BF528B400857C0E /* YKSResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSResponseSerializer.h; sourceTree = "<group>"; };
+		3F6D60531BF528B400857C0E /* YKSResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSResponseSerializer.m; sourceTree = "<group>"; };
+		3F6D60701BF528B400857C0E /* YKSHotelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSHotelRequest.h; sourceTree = "<group>"; };
+		3F6D60711BF528B400857C0E /* YKSHotelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSHotelRequest.m; sourceTree = "<group>"; };
+		3F6D60721BF528B400857C0E /* YKSRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSRequest.h; sourceTree = "<group>"; };
+		3F6D60731BF528B400857C0E /* YKSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSRequest.m; sourceTree = "<group>"; };
+		3F6D60741BF528B400857C0E /* YKSSessionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSSessionRequest.h; sourceTree = "<group>"; };
+		3F6D60751BF528B400857C0E /* YKSSessionRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSSessionRequest.m; sourceTree = "<group>"; };
+		3F6D60761BF528B400857C0E /* YKSUserRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSUserRequest.h; sourceTree = "<group>"; };
+		3F6D60771BF528B400857C0E /* YKSUserRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSUserRequest.m; sourceTree = "<group>"; };
+		3F6D60781BF528B400857C0E /* YKSAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSAPIManager.h; sourceTree = "<group>"; };
+		3F6D60791BF528B400857C0E /* YKSAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSAPIManager.m; sourceTree = "<group>"; };
+		3F6D607B1BF528B400857C0E /* YKSSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSSessionManager.h; sourceTree = "<group>"; };
+		3F6D607C1BF528B400857C0E /* YKSSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSSessionManager.m; sourceTree = "<group>"; };
+		3F6D607E1BF528B400857C0E /* ConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionManager.h; sourceTree = "<group>"; };
+		3F6D607F1BF528B400857C0E /* ConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionManager.m; sourceTree = "<group>"; };
+		3F6D60801BF528B400857C0E /* GuestAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuestAuth.h; sourceTree = "<group>"; };
+		3F6D60811BF528B400857C0E /* GuestAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuestAuth.m; sourceTree = "<group>"; };
+		3F6D60821BF528B400857C0E /* UserStay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserStay.h; sourceTree = "<group>"; };
+		3F6D60831BF528B400857C0E /* UserStay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserStay.m; sourceTree = "<group>"; };
+		3F6D60841BF528B400857C0E /* YBLEManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBLEManager.h; sourceTree = "<group>"; };
+		3F6D60851BF528B400857C0E /* YBLEManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBLEManager.m; sourceTree = "<group>"; };
+		3F6D60861BF528B400857C0E /* YikesBLEConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YikesBLEConstants.h; sourceTree = "<group>"; };
+		3F6D60871BF528B400857C0E /* YLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLink.h; sourceTree = "<group>"; };
+		3F6D60881BF528B400857C0E /* YLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLink.m; sourceTree = "<group>"; };
+		3F6D60891BF528B400857C0E /* YMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMan.h; sourceTree = "<group>"; };
+		3F6D608A1BF528B400857C0E /* YMan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMan.m; sourceTree = "<group>"; };
+		3F6D60901BF528B400857C0E /* YKSDebugConsoleBLETriangleActiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSDebugConsoleBLETriangleActiveCell.h; sourceTree = "<group>"; };
+		3F6D60911BF528B400857C0E /* YKSDebugConsoleBLETriangleActiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSDebugConsoleBLETriangleActiveCell.m; sourceTree = "<group>"; };
+		3F6D60921BF528B400857C0E /* YKSDebugConsoleBLETriangleFinishedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSDebugConsoleBLETriangleFinishedCell.h; sourceTree = "<group>"; };
+		3F6D60931BF528B400857C0E /* YKSDebugConsoleBLETriangleFinishedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSDebugConsoleBLETriangleFinishedCell.m; sourceTree = "<group>"; };
+		3F6D60941BF528B400857C0E /* YKSRequiredHardwareTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSRequiredHardwareTableViewCell.h; sourceTree = "<group>"; };
+		3F6D60951BF528B400857C0E /* YKSRequiredHardwareTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSRequiredHardwareTableViewCell.m; sourceTree = "<group>"; };
+		3F6D60961BF528B400857C0E /* YKSScanningYManTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSScanningYManTableViewCell.h; sourceTree = "<group>"; };
+		3F6D60971BF528B400857C0E /* YKSScanningYManTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSScanningYManTableViewCell.m; sourceTree = "<group>"; };
+		3F6D60991BF528B400857C0E /* BLETriangleConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLETriangleConnection.h; sourceTree = "<group>"; };
+		3F6D609A1BF528B400857C0E /* BLETriangleConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLETriangleConnection.m; sourceTree = "<group>"; };
+		3F6D609B1BF528B400857C0E /* YKSYManConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSYManConnection.h; sourceTree = "<group>"; };
+		3F6D609C1BF528B400857C0E /* YKSYManConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSYManConnection.m; sourceTree = "<group>"; };
+		3F6D609F1BF528B400857C0E /* YKSDebugConsoleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSDebugConsoleViewController.h; sourceTree = "<group>"; };
+		3F6D60A01BF528B400857C0E /* YKSDebugConsoleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSDebugConsoleViewController.m; sourceTree = "<group>"; };
+		3F6D60A11BF528B400857C0E /* YKSDebugManager+BLEConnectionsSimulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YKSDebugManager+BLEConnectionsSimulation.h"; sourceTree = "<group>"; };
+		3F6D60A21BF528B400857C0E /* YKSDebugManager+BLEConnectionsSimulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YKSDebugManager+BLEConnectionsSimulation.m"; sourceTree = "<group>"; };
+		3F6D60A31BF528B400857C0E /* YKSDebugManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSDebugManager.h; sourceTree = "<group>"; };
+		3F6D60A41BF528B400857C0E /* YKSDebugManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSDebugManager.m; sourceTree = "<group>"; };
+		3F6D60A51BF528B400857C0E /* YKSRequiredHardwareNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSRequiredHardwareNotificationCenter.h; sourceTree = "<group>"; };
+		3F6D60A61BF528B400857C0E /* YKSRequiredHardwareNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSRequiredHardwareNotificationCenter.m; sourceTree = "<group>"; };
+		3F6D60A71BF528B400857C0E /* YKSRequiredHardwareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSRequiredHardwareViewController.h; sourceTree = "<group>"; };
+		3F6D60A81BF528B400857C0E /* YKSRequiredHardwareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSRequiredHardwareViewController.m; sourceTree = "<group>"; };
+		3F6D60A91BF528B400857C0E /* YKSRSSIHistogramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSRSSIHistogramViewController.h; sourceTree = "<group>"; };
+		3F6D60AA1BF528B400857C0E /* YKSRSSIHistogramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSRSSIHistogramViewController.m; sourceTree = "<group>"; };
+		3F6D60AB1BF528B400857C0E /* YKSTablesConnectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSTablesConnectionsViewController.h; sourceTree = "<group>"; };
+		3F6D60AC1BF528B400857C0E /* YKSTablesConnectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSTablesConnectionsViewController.m; sourceTree = "<group>"; };
+		3F6D60AD1BF528B400857C0E /* YKSYManTableConnectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSYManTableConnectionsViewController.h; sourceTree = "<group>"; };
+		3F6D60AE1BF528B400857C0E /* YKSYManTableConnectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSYManTableConnectionsViewController.m; sourceTree = "<group>"; };
+		3F6D616A1BF528B400857C0E /* YKSErrorDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSErrorDetector.h; sourceTree = "<group>"; };
+		3F6D616B1BF528B400857C0E /* YKSErrorDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSErrorDetector.m; sourceTree = "<group>"; };
+		3F6D616C1BF528B400857C0E /* YKSErrorReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSErrorReporter.h; sourceTree = "<group>"; };
+		3F6D616D1BF528B400857C0E /* YKSErrorReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSErrorReporter.m; sourceTree = "<group>"; };
+		3F6D616F1BF528B400857C0E /* YikesEngineMP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YikesEngineMP.h; sourceTree = "<group>"; };
+		3F6D61701BF528B400857C0E /* YikesEngineMP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YikesEngineMP.m; sourceTree = "<group>"; };
+		3F6D61831BF528B400857C0E /* YKSLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSLocationManager.h; sourceTree = "<group>"; };
+		3F6D61841BF528B400857C0E /* YKSLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSLocationManager.m; sourceTree = "<group>"; };
+		3F6D61861BF528B400857C0E /* YMotionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMotionManager.h; sourceTree = "<group>"; };
+		3F6D61871BF528B400857C0E /* YMotionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMotionManager.m; sourceTree = "<group>"; };
+		3F6D61891BF528B400857C0E /* MultiYManGAuthDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiYManGAuthDispatcher.h; sourceTree = "<group>"; };
+		3F6D618A1BF528B400857C0E /* MultiYManGAuthDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiYManGAuthDispatcher.m; sourceTree = "<group>"; };
+		3F6D618B1BF528B400857C0E /* PrimaryYManDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimaryYManDispatcher.h; sourceTree = "<group>"; };
+		3F6D618C1BF528B400857C0E /* PrimaryYManDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimaryYManDispatcher.m; sourceTree = "<group>"; };
+		3F6D618D1BF528B400857C0E /* YKSFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSFileLogger.h; sourceTree = "<group>"; };
+		3F6D618E1BF528B400857C0E /* YKSFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSFileLogger.m; sourceTree = "<group>"; };
+		3F6D618F1BF528B400857C0E /* YKSYManReporterTimeInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSYManReporterTimeInterval.h; sourceTree = "<group>"; };
+		3F6D61901BF528B400857C0E /* YKSYManReporterTimeInterval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSYManReporterTimeInterval.m; sourceTree = "<group>"; };
+		3F6D61911BF528B400857C0E /* YLinkReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLinkReporter.h; sourceTree = "<group>"; };
+		3F6D61921BF528B400857C0E /* YLinkReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLinkReporter.m; sourceTree = "<group>"; };
+		3F6D61931BF528B400857C0E /* YManReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YManReporter.h; sourceTree = "<group>"; };
+		3F6D61941BF528B400857C0E /* YManReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YManReporter.m; sourceTree = "<group>"; };
+		3F6D61961BF528B400857C0E /* DebugViewStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DebugViewStoryboard.storyboard; sourceTree = "<group>"; };
+		3F6D61981BF528B400857C0E /* YKSServicesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSServicesManager.h; sourceTree = "<group>"; };
+		3F6D61991BF528B400857C0E /* YKSServicesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSServicesManager.m; sourceTree = "<group>"; };
+		3F6D61A11BF528B400857C0E /* YKSError+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YKSError+Util.h"; sourceTree = "<group>"; };
+		3F6D61A21BF528B400857C0E /* YKSError+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YKSError+Util.m"; sourceTree = "<group>"; };
+		3F6D61A61BF528B400857C0E /* YKSLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSLogger.h; sourceTree = "<group>"; };
+		3F6D61A71BF528B400857C0E /* YKSLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSLogger.m; sourceTree = "<group>"; };
+		3F6D62E41BF52B5800857C0E /* YikesEngineMP-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YikesEngineMP-PrefixHeader.pch"; sourceTree = "<group>"; };
+		3F6D62E61BF52BEF00857C0E /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		3F6D62E81BF52BF700857C0E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3FC789FF1C920A03009DEA40 /* YikesSharedModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YikesSharedModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DAF9BEDB7232928431BE2BA /* Pods-YikesEngineMPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YikesEngineMPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YikesEngineMPTests/Pods-YikesEngineMPTests.release.xcconfig"; sourceTree = "<group>"; };
+		9691FE1316C6DE330160C006 /* Pods-YikesEngineMPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YikesEngineMPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YikesEngineMPTests/Pods-YikesEngineMPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBA3323413402ABCC70FF9A9 /* Pods-YikesEngineMP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YikesEngineMP.release.xcconfig"; path = "Pods/Target Support Files/Pods-YikesEngineMP/Pods-YikesEngineMP.release.xcconfig"; sourceTree = "<group>"; };
+		C3C058191DA71E2100407687 /* YikesEngineMPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YikesEngineMPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3C0581B1DA71E2100407687 /* YikesEngineMPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YikesEngineMPTests.swift; sourceTree = "<group>"; };
+		C3C0581D1DA71E2100407687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0407DD3B529E7DA7E4490FE /* Pods_YikesEngineMP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YikesEngineMP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F6D5FF21BF5272E00857C0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6D62E91BF52BF700857C0E /* libz.tbd in Frameworks */,
+				3F6D62E71BF52BEF00857C0E /* ReplayKit.framework in Frameworks */,
+				56D66453FEB72A9053CA3178 /* Pods_YikesEngineMP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3C058161DA71E2100407687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C0581E1DA71E2100407687 /* YikesEngineMP.framework in Frameworks */,
+				C897ABBC0FA62A90D5D55FD9 /* Pods_YikesEngineMPTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CE61C5D1C86030100284A84 /* PrivateModels */ = {
+			isa = PBXGroup;
+			children = (
+				2CE61C6E1C86030A00284A84 /* YKSSession.h */,
+				2CE61C6F1C86030A00284A84 /* YKSSession.m */,
+			);
+			name = PrivateModels;
+			sourceTree = "<group>";
+		};
+		3F6D5FEC1BF5272E00857C0E = {
+			isa = PBXGroup;
+			children = (
+				3F6D5FF81BF5272E00857C0E /* YikesEngineMP */,
+				C3C0581A1DA71E2100407687 /* YikesEngineMPTests */,
+				3F6D62EA1BF52C0800857C0E /* Frameworks */,
+				3F6D5FF71BF5272E00857C0E /* Products */,
+				FE667E385AE5A144BFBE38FD /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3F6D5FF71BF5272E00857C0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F6D5FF61BF5272E00857C0E /* YikesEngineMP.framework */,
+				C3C058191DA71E2100407687 /* YikesEngineMPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F6D5FF81BF5272E00857C0E /* YikesEngineMP */ = {
+			isa = PBXGroup;
+			children = (
+				3F6D616E1BF528B400857C0E /* Headers */,
+				3F6D60461BF528B400857C0E /* APIManager */,
+				3F6D607D1BF528B400857C0E /* BLEManager */,
+				3F6D61821BF528B400857C0E /* LocationManager */,
+				3F6D61851BF528B400857C0E /* MotionManager */,
+				3F6D61971BF528B400857C0E /* ServicesManager */,
+				3F6D61691BF528B400857C0E /* ErrorReporter */,
+				3F6D61A51BF528B400857C0E /* YKSLogger */,
+				3F6D608B1BF528B400857C0E /* DebugTools */,
+				3F6D61881BF528B400857C0E /* Reporter */,
+				3F6D619A1BF528B400857C0E /* YikesHelpers */,
+				3F6D61951BF528B400857C0E /* Resources */,
+				3F6D62E31BF52B0E00857C0E /* Supporting Files */,
+			);
+			path = YikesEngineMP;
+			sourceTree = "<group>";
+		};
+		3F6D60461BF528B400857C0E /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				2CE61C5D1C86030100284A84 /* PrivateModels */,
+				3F6D60471BF528B400857C0E /* Operations */,
+				3F6D606F1BF528B400857C0E /* Requests */,
+				3F6D60781BF528B400857C0E /* YKSAPIManager.h */,
+				3F6D60791BF528B400857C0E /* YKSAPIManager.m */,
+				3F6D607B1BF528B400857C0E /* YKSSessionManager.h */,
+				3F6D607C1BF528B400857C0E /* YKSSessionManager.m */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		3F6D60471BF528B400857C0E /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				3F6D60481BF528B400857C0E /* YKSDEVRequestOperationManager.h */,
+				3F6D60491BF528B400857C0E /* YKSDEVRequestOperationManager.m */,
+				3F6D604A1BF528B400857C0E /* YKSHTTPClient.h */,
+				3F6D604B1BF528B400857C0E /* YKSHTTPClient.m */,
+				3F6D604C1BF528B400857C0E /* YKSPRODRequestOperationManager.h */,
+				3F6D604D1BF528B400857C0E /* YKSPRODRequestOperationManager.m */,
+				3F6D604E1BF528B400857C0E /* YKSQARequestOperationManager.h */,
+				3F6D604F1BF528B400857C0E /* YKSQARequestOperationManager.m */,
+				3F6D60501BF528B400857C0E /* YKSRequestSerializer.h */,
+				3F6D60511BF528B400857C0E /* YKSRequestSerializer.m */,
+				3F6D60521BF528B400857C0E /* YKSResponseSerializer.h */,
+				3F6D60531BF528B400857C0E /* YKSResponseSerializer.m */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		3F6D606F1BF528B400857C0E /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				3F6D60701BF528B400857C0E /* YKSHotelRequest.h */,
+				3F6D60711BF528B400857C0E /* YKSHotelRequest.m */,
+				3F6D60721BF528B400857C0E /* YKSRequest.h */,
+				3F6D60731BF528B400857C0E /* YKSRequest.m */,
+				3F6D60741BF528B400857C0E /* YKSSessionRequest.h */,
+				3F6D60751BF528B400857C0E /* YKSSessionRequest.m */,
+				3F6D60761BF528B400857C0E /* YKSUserRequest.h */,
+				3F6D60771BF528B400857C0E /* YKSUserRequest.m */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		3F6D607D1BF528B400857C0E /* BLEManager */ = {
+			isa = PBXGroup;
+			children = (
+				3F6D607E1BF528B400857C0E /* ConnectionManager.h */,
+				3F6D607F1BF528B400857C0E /* ConnectionManager.m */,
+				3F6D60801BF528B400857C0E /* GuestAuth.h */,
+				3F6D60811BF528B400857C0E /* GuestAuth.m */,
+				3F6D60821BF528B400857C0E /* UserStay.h */,
+				3F6D60831BF528B400857C0E /* UserStay.m */,
+				3F6D60841BF528B400857C0E /* YBLEManager.h */,
+				3F6D60851BF528B400857C0E /* YBLEManager.m */,
+				3F6D60861BF528B400857C0E /* YikesBLEConstants.h */,
+				3F6D60871BF528B400857C0E /* YLink.h */,
+				3F6D60881BF528B400857C0E /* YLink.m */,
+				3F6D60891BF528B400857C0E /* YMan.h */,
+				3F6D608A1BF528B400857C0E /* YMan.m */,
+			);
+			path = BLEManager;
+			sourceTree = "<group>";
+		};
+		3F6D608B1BF528B400857C0E /* DebugTools */ = {
+			isa = PBXGroup;
+			children = (
+				3F6D608F1BF528B400857C0E /* Cells */,
+				3F6D60981BF528B400857C0E /* DataModel */,
+				3F6D609F1BF528B400857C0E /* YKSDebugConsoleViewController.h */,
+				3F6D60A01BF528B400857C0E /* YKSDebugConsoleViewController.m */,
+				3F6D60A11BF528B400857C0E /* YKSDebugManager+BLEConnectionsSimulation.h */,
+				3F6D60A21BF528B400857C0E /* YKSDebugManager+BLEConnectionsSimulation.m */,
+				3F6D60A31BF528B400857C0E /* YKSDebugManager.h */,
+				3F6D60A41BF528B400857C0E /* YKSDebugManager.m */,
+				3F6D60A51BF528B400857C0E /* YKSRequiredHardwareNotificationCenter.h */,
+				3F6D60A61BF528B400857C0E /* YKSRequiredHardwareNotificationCenter.m */,
+				3F6D60A71BF528B400857C0E /* YKSRequiredHardwareViewController.h */,
+				3F6D60A81BF528B400857C0E /* YKSRequiredHardwareViewController.m */,
+				3F6D60A91BF528B400857C0E /* YKSRSSIHistogramViewController.h */,
+				3F6D60AA1BF528B400857C0E /* YKSRSSIHistogramViewController.m */,
+				3F6D60AB1BF528B400857C0E /* YKSTablesConnectionsViewController.h */,
+				3F6D60AC1BF528B400857C0E /* YKSTablesConnectionsViewController.m */,
+				3F6D60AD1BF528B400857C0E /* YKSYManTableConnectionsViewController.h */,
+				3F6D60AE1BF528B400857C0E /* YKSYManTableConnectionsViewController.m */,
+			);
+			path = DebugTools;
+			sourceTree = "<group>";
+		};
+		3F6D608F1BF528B400857C0E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3F6D60901BF528B400857C0E /* YKSDebugConsoleBLETriangleActiveCell.h */,
+				3F6D60911BF528B400857C0E /* YKSDebugConsoleBLETriangleActiveCell.m */,
+				3F6D60921BF528B400857C0E /* YKSDebugConsoleBLETriangleFinishedCell.h */,
+				3F6D60931BF528B400857C0E /* YKSDebugConsoleBLETriangleFinishedCell.m */,
+				3F6D60941BF528B400857C0E /* YKSRequiredHardwareTableViewCell.h */,
+				3F6D60951BF528B400857C0E /* YKSRequiredHardwareTableViewCell.m */,
+				3F6D60961BF528B400857C0E /* YKSScanningYManTableViewCell.h */,
+				3F6D60971BF528B400857C0E /* YKSScanningYManTableViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3F6D60981BF528B400857C0E /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				3F6D60991BF528B400857C0E /* BLETriangleConnection.h */,
+				3F6D609A1BF528B400857C0E /* BLETriangleConnection.m */,
+				3F6D609B1BF528B400857C0E /* YKSYManConnection.h */,
+				3F6D609C1BF528B400857C0E /* YKSYManConnection.m */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		3F6D61691BF528B400857C0E /* ErrorReporter */ = {
+			isa = PBXGroup;
+			children = (
+				3F6D616A1BF528B400857C0E /* YKSErrorDetector.h */,
+				3F6D616B1BF528B400857C0E /* YKSErrorDetector.m */,
+				3F6D616C1BF528B400857C0E /* YKSErrorReporter.h */,
+				3F6D616D1BF528B400857C0E /* YKSErrorReporter.m */,
+			);
+			path = ErrorReporter;
+			sourceTree = "<group>";
+		};
+		3F6D616E1BF528B400857C0E /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				3F6D616F1BF528B400857C0E /* YikesEngineMP.h */,
+				3F6D61701BF528B400857C0E /* YikesEngineMP.m */,
+				2CC777871C922DB900C508F3 /* YKSInternalConstants.h */,
+				2C3961531C85F4F1006A8113 /* YKSAddress.h */,
+				2C3961541C85F4F1006A8113 /* YKSAddress.m */,
+				2C3961551C85F4F1006A8113 /* YKSAmenity.h */,
+				2C3961561C85F4F1006A8113 /* YKSAmenity.m */,
+				2C3961571C85F4F1006A8113 /* YKSContact.h */,
+				2C3961581C85F4F1006A8113 /* YKSContact.m */,
+				2C3961591C85F4F1006A8113 /* YKSHotel.h */,
+				2C39615A1C85F4F1006A8113 /* YKSHotel.m */,
+				2C39615B1C85F4F1006A8113 /* YKSLevelLogger.h */,
+				2C39615C1C85F4F1006A8113 /* YKSLevelLogger.m */,
+				2C39615D1C85F4F1006A8113 /* YKSModel.h */,
+				2C39615E1C85F4F1006A8113 /* YKSModel.m */,
+				2C39615F1C85F4F1006A8113 /* YKSPhone.h */,
+				2C3961601C85F4F1006A8113 /* YKSPhone.m */,
+				2C3961611C85F4F1006A8113 /* YKSPrimaryYMan.h */,
+				2C3961621C85F4F1006A8113 /* YKSPrimaryYMan.m */,
+				2C3961651C85F4F1006A8113 /* YKSStay.h */,
+				2C3961661C85F4F1006A8113 /* YKSStay.m */,
+				2C3961671C85F4F1006A8113 /* YKSStayShare.h */,
+				2C3961681C85F4F1006A8113 /* YKSStayShare.m */,
+				2C3961691C85F4F1006A8113 /* YKSUser.h */,
+				2C39616A1C85F4F1006A8113 /* YKSUser.m */,
+				2C39616B1C85F4F1006A8113 /* YKSUserInvite.h */,
+				2C39616C1C85F4F1006A8113 /* YKSUserInvite.m */,
+				2C39616D1C85F4F1006A8113 /* YKSWeather.h */,
+				2C39616E1C85F4F1006A8113 /* YKSWeather.m */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		3F6D61821BF528B400857C0E /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				3F6D61831BF528B400857C0E /* YKSLocationManager.h */,
+				3F6D61841BF528B400857C0E /* YKSLocationManager.m */,
+			);
+			path = LocationManager;
+			sourceTree = "<group>";
+		};
+		3F6D61851BF528B400857C0E /* MotionManager */ = {
+			isa = PBXGroup;
+			children = (
+				3F6D61861BF528B400857C0E /* YMotionManager.h */,
+				3F6D61871BF528B400857C0E /* YMotionManager.m */,
+			);
+			path = MotionManager;
+			sourceTree = "<group>";
+		};
+		3F6D61881BF528B400857C0E /* Reporter */ = {
+			isa = PBXGroup;
+			children = (
+				3F6D61891BF528B400857C0E /* MultiYManGAuthDispatcher.h */,
+				3F6D618A1BF528B400857C0E /* MultiYManGAuthDispatcher.m */,
+				3F6D618B1BF528B400857C0E /* PrimaryYManDispatcher.h */,
+				3F6D618C1BF528B400857C0E /* PrimaryYManDispatcher.m */,
+				3F6D618D1BF528B400857C0E /* YKSFileLogger.h */,
+				3F6D618E1BF528B400857C0E /* YKSFileLogger.m */,
+				3F6D618F1BF528B400857C0E /* YKSYManReporterTimeInterval.h */,
+				3F6D61901BF528B400857C0E /* YKSYManReporterTimeInterval.m */,
+				3F6D61911BF528B400857C0E /* YLinkReporter.h */,
+				3F6D61921BF528B400857C0E /* YLinkReporter.m */,
+				3F6D61931BF528B400857C0E /* YManReporter.h */,
+				3F6D61941BF528B400857C0E /* YManReporter.m */,
+			);
+			path = Reporter;
+			sourceTree = "<group>";
+		};
+		3F6D61951BF528B400857C0E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3F6D61961BF528B400857C0E /* DebugViewStoryboard.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3F6D61971BF528B400857C0E /* ServicesManager */ = {
+			isa = PBXGroup;
+			children = (
+				3F6D61981BF528B400857C0E /* YKSServicesManager.h */,
+				3F6D61991BF528B400857C0E /* YKSServicesManager.m */,
+			);
+			path = ServicesManager;
+			sourceTree = "<group>";
+		};
+		3F6D619A1BF528B400857C0E /* YikesHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				2CC777891C92317700C508F3 /* YKSBinaryHelper.h */,
+				2CC7778A1C92317700C508F3 /* YKSBinaryHelper.m */,
+				2CC7778B1C92317700C508F3 /* YKSDeviceHelper.h */,
+				2CC7778C1C92317700C508F3 /* YKSDeviceHelper.m */,
+				3F6D61A11BF528B400857C0E /* YKSError+Util.h */,
+				3F6D61A21BF528B400857C0E /* YKSError+Util.m */,
+			);
+			path = YikesHelpers;
+			sourceTree = "<group>";
+		};
+		3F6D61A51BF528B400857C0E /* YKSLogger */ = {
+			isa = PBXGroup;
+			children = (
+				3F6D61A61BF528B400857C0E /* YKSLogger.h */,
+				3F6D61A71BF528B400857C0E /* YKSLogger.m */,
+			);
+			path = YKSLogger;
+			sourceTree = "<group>";
+		};
+		3F6D62E31BF52B0E00857C0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F6D5FFB1BF5272E00857C0E /* Info.plist */,
+				3F6D62E41BF52B5800857C0E /* YikesEngineMP-PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F6D62EA1BF52C0800857C0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FC789FF1C920A03009DEA40 /* YikesSharedModel.framework */,
+				3F6D62E81BF52BF700857C0E /* libz.tbd */,
+				3F6D62E61BF52BEF00857C0E /* ReplayKit.framework */,
+				F0407DD3B529E7DA7E4490FE /* Pods_YikesEngineMP.framework */,
+				2385523F6C2845D6AC6DAB85 /* Pods_YikesEngineMPTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3C0581A1DA71E2100407687 /* YikesEngineMPTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3C0581B1DA71E2100407687 /* YikesEngineMPTests.swift */,
+				C3C0581D1DA71E2100407687 /* Info.plist */,
+			);
+			path = YikesEngineMPTests;
+			sourceTree = "<group>";
+		};
+		FE667E385AE5A144BFBE38FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28AC65051A9EAE28AC841183 /* Pods-YikesEngineMP.debug.xcconfig */,
+				BBA3323413402ABCC70FF9A9 /* Pods-YikesEngineMP.release.xcconfig */,
+				9691FE1316C6DE330160C006 /* Pods-YikesEngineMPTests.debug.xcconfig */,
+				7DAF9BEDB7232928431BE2BA /* Pods-YikesEngineMPTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F6D5FF31BF5272E00857C0E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6D62AF1BF528B400857C0E /* YikesEngineMP.h in Headers */,
+				3F6D62C61BF528B400857C0E /* MultiYManGAuthDispatcher.h in Headers */,
+				2C3961851C85F4F1006A8113 /* YKSUser.h in Headers */,
+				3F6D61E41BF528B400857C0E /* YLink.h in Headers */,
+				3F6D61EF1BF528B400857C0E /* YKSRequiredHardwareTableViewCell.h in Headers */,
+				3F6D62D01BF528B400857C0E /* YManReporter.h in Headers */,
+				3F6D61B21BF528B400857C0E /* YKSResponseSerializer.h in Headers */,
+				2CC7778F1C92317700C508F3 /* YKSDeviceHelper.h in Headers */,
+				3F6D62071BF528B400857C0E /* YKSYManTableConnectionsViewController.h in Headers */,
+				3F6D61CE1BF528B400857C0E /* YKSHotelRequest.h in Headers */,
+				3F6D62C21BF528B400857C0E /* YKSLocationManager.h in Headers */,
+				3F6D62031BF528B400857C0E /* YKSRSSIHistogramViewController.h in Headers */,
+				3F6D61E61BF528B400857C0E /* YMan.h in Headers */,
+				3F6D61E11BF528B400857C0E /* YBLEManager.h in Headers */,
+				3F6D61DB1BF528B400857C0E /* ConnectionManager.h in Headers */,
+				3F6D62CA1BF528B400857C0E /* YKSFileLogger.h in Headers */,
+				3F6D61FB1BF528B400857C0E /* YKSDebugManager+BLEConnectionsSimulation.h in Headers */,
+				3F6D61D01BF528B400857C0E /* YKSRequest.h in Headers */,
+				2CE61C8A1C86030A00284A84 /* YKSSession.h in Headers */,
+				3F6D61D41BF528B400857C0E /* YKSUserRequest.h in Headers */,
+				3F6D61ED1BF528B400857C0E /* YKSDebugConsoleBLETriangleFinishedCell.h in Headers */,
+				3F6D61B01BF528B400857C0E /* YKSRequestSerializer.h in Headers */,
+				3F6D61A81BF528B400857C0E /* YKSDEVRequestOperationManager.h in Headers */,
+				2C3961711C85F4F1006A8113 /* YKSAmenity.h in Headers */,
+				2C3961871C85F4F1006A8113 /* YKSUserInvite.h in Headers */,
+				3F6D62AB1BF528B400857C0E /* YKSErrorDetector.h in Headers */,
+				2C3961751C85F4F1006A8113 /* YKSHotel.h in Headers */,
+				2C39617B1C85F4F1006A8113 /* YKSPhone.h in Headers */,
+				3F6D62DF1BF528B400857C0E /* YKSLogger.h in Headers */,
+				3F6D62051BF528B400857C0E /* YKSTablesConnectionsViewController.h in Headers */,
+				3F6D62C41BF528B400857C0E /* YMotionManager.h in Headers */,
+				3F6D62011BF528B400857C0E /* YKSRequiredHardwareViewController.h in Headers */,
+				3F6D61F11BF528B400857C0E /* YKSScanningYManTableViewCell.h in Headers */,
+				2C3961771C85F4F1006A8113 /* YKSLevelLogger.h in Headers */,
+				3F6D61D21BF528B400857C0E /* YKSSessionRequest.h in Headers */,
+				3F6D61D91BF528B400857C0E /* YKSSessionManager.h in Headers */,
+				3F6D62D31BF528B400857C0E /* YKSServicesManager.h in Headers */,
+				3F6D61EB1BF528B400857C0E /* YKSDebugConsoleBLETriangleActiveCell.h in Headers */,
+				3F6D62CC1BF528B400857C0E /* YKSYManReporterTimeInterval.h in Headers */,
+				3F6D61AE1BF528B400857C0E /* YKSQARequestOperationManager.h in Headers */,
+				3F6D61F31BF528B400857C0E /* BLETriangleConnection.h in Headers */,
+				3F6D61F51BF528B400857C0E /* YKSYManConnection.h in Headers */,
+				3F6D61FD1BF528B400857C0E /* YKSDebugManager.h in Headers */,
+				3F6D62E51BF52B5800857C0E /* YikesEngineMP-PrefixHeader.pch in Headers */,
+				3F6D61AC1BF528B400857C0E /* YKSPRODRequestOperationManager.h in Headers */,
+				2CC7778D1C92317700C508F3 /* YKSBinaryHelper.h in Headers */,
+				3F6D61F91BF528B400857C0E /* YKSDebugConsoleViewController.h in Headers */,
+				2C3961811C85F4F1006A8113 /* YKSStay.h in Headers */,
+				3F6D62DB1BF528B400857C0E /* YKSError+Util.h in Headers */,
+				2C3961831C85F4F1006A8113 /* YKSStayShare.h in Headers */,
+				2CC777881C922DB900C508F3 /* YKSInternalConstants.h in Headers */,
+				2C3961891C85F4F1006A8113 /* YKSWeather.h in Headers */,
+				3F6D61AA1BF528B400857C0E /* YKSHTTPClient.h in Headers */,
+				2C3961731C85F4F1006A8113 /* YKSContact.h in Headers */,
+				3F6D61D61BF528B400857C0E /* YKSAPIManager.h in Headers */,
+				3F6D62C81BF528B400857C0E /* PrimaryYManDispatcher.h in Headers */,
+				3F6D61DD1BF528B400857C0E /* GuestAuth.h in Headers */,
+				3F6D62AD1BF528B400857C0E /* YKSErrorReporter.h in Headers */,
+				3F6D61FF1BF528B400857C0E /* YKSRequiredHardwareNotificationCenter.h in Headers */,
+				2C39617D1C85F4F1006A8113 /* YKSPrimaryYMan.h in Headers */,
+				3F6D62CE1BF528B400857C0E /* YLinkReporter.h in Headers */,
+				2C3961791C85F4F1006A8113 /* YKSModel.h in Headers */,
+				3F6D61DF1BF528B400857C0E /* UserStay.h in Headers */,
+				3F6D61E31BF528B400857C0E /* YikesBLEConstants.h in Headers */,
+				2C39616F1C85F4F1006A8113 /* YKSAddress.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F6D5FF51BF5272E00857C0E /* YikesEngineMP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6D600A1BF5272E00857C0E /* Build configuration list for PBXNativeTarget "YikesEngineMP" */;
+			buildPhases = (
+				76013064F88293F2787685FD /* [CP] Check Pods Manifest.lock */,
+				3F6D5FF11BF5272E00857C0E /* Sources */,
+				3F6D5FF21BF5272E00857C0E /* Frameworks */,
+				3F6D5FF31BF5272E00857C0E /* Headers */,
+				3F6D5FF41BF5272E00857C0E /* Resources */,
+				3AA6AC184EA6CDA955CE9AB8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YikesEngineMP;
+			productName = YikesEngineMP;
+			productReference = 3F6D5FF61BF5272E00857C0E /* YikesEngineMP.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3C058181DA71E2100407687 /* YikesEngineMPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3C058231DA71E2100407687 /* Build configuration list for PBXNativeTarget "YikesEngineMPTests" */;
+			buildPhases = (
+				9FD40132290321A71213CEEA /* [CP] Check Pods Manifest.lock */,
+				C3C058151DA71E2100407687 /* Sources */,
+				C3C058161DA71E2100407687 /* Frameworks */,
+				C3C058171DA71E2100407687 /* Resources */,
+				2ECBCFD9D92EACAC634F1392 /* [CP] Embed Pods Frameworks */,
+				4C8091115A2C2D430A87D248 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3C058201DA71E2100407687 /* PBXTargetDependency */,
+			);
+			name = YikesEngineMPTests;
+			productName = YikesEngineMPTests;
+			productReference = C3C058191DA71E2100407687 /* YikesEngineMPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F6D5FED1BF5272E00857C0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = yikes;
+				TargetAttributes = {
+					3F6D5FF51BF5272E00857C0E = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = LC489JD2L3;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					C3C058181DA71E2100407687 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LC489JD2L3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3F6D5FF01BF5272E00857C0E /* Build configuration list for PBXProject "YikesEngineMP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F6D5FEC1BF5272E00857C0E;
+			productRefGroup = 3F6D5FF71BF5272E00857C0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F6D5FF51BF5272E00857C0E /* YikesEngineMP */,
+				C3C058181DA71E2100407687 /* YikesEngineMPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F6D5FF41BF5272E00857C0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6D62D21BF528B400857C0E /* DebugViewStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3C058171DA71E2100407687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2ECBCFD9D92EACAC634F1392 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YikesEngineMPTests/Pods-YikesEngineMPTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AA6AC184EA6CDA955CE9AB8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YikesEngineMP/Pods-YikesEngineMP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C8091115A2C2D430A87D248 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YikesEngineMPTests/Pods-YikesEngineMPTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76013064F88293F2787685FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9FD40132290321A71213CEEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F6D5FF11BF5272E00857C0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6D61AB1BF528B400857C0E /* YKSHTTPClient.m in Sources */,
+				3F6D61F61BF528B400857C0E /* YKSYManConnection.m in Sources */,
+				3F6D62CD1BF528B400857C0E /* YKSYManReporterTimeInterval.m in Sources */,
+				2C3961841C85F4F1006A8113 /* YKSStayShare.m in Sources */,
+				3F6D61E01BF528B400857C0E /* UserStay.m in Sources */,
+				3F6D62081BF528B400857C0E /* YKSYManTableConnectionsViewController.m in Sources */,
+				3F6D61F41BF528B400857C0E /* BLETriangleConnection.m in Sources */,
+				3F6D62C31BF528B400857C0E /* YKSLocationManager.m in Sources */,
+				3F6D61E51BF528B400857C0E /* YLink.m in Sources */,
+				3F6D62AC1BF528B400857C0E /* YKSErrorDetector.m in Sources */,
+				3F6D61F21BF528B400857C0E /* YKSScanningYManTableViewCell.m in Sources */,
+				2C3961721C85F4F1006A8113 /* YKSAmenity.m in Sources */,
+				2CC777901C92317700C508F3 /* YKSDeviceHelper.m in Sources */,
+				2CC7778E1C92317700C508F3 /* YKSBinaryHelper.m in Sources */,
+				3F6D61EE1BF528B400857C0E /* YKSDebugConsoleBLETriangleFinishedCell.m in Sources */,
+				3F6D61D31BF528B400857C0E /* YKSSessionRequest.m in Sources */,
+				3F6D62CF1BF528B400857C0E /* YLinkReporter.m in Sources */,
+				2C3961861C85F4F1006A8113 /* YKSUser.m in Sources */,
+				3F6D61FA1BF528B400857C0E /* YKSDebugConsoleViewController.m in Sources */,
+				3F6D61D51BF528B400857C0E /* YKSUserRequest.m in Sources */,
+				2C39617A1C85F4F1006A8113 /* YKSModel.m in Sources */,
+				3F6D61D11BF528B400857C0E /* YKSRequest.m in Sources */,
+				2C39617C1C85F4F1006A8113 /* YKSPhone.m in Sources */,
+				3F6D62AE1BF528B400857C0E /* YKSErrorReporter.m in Sources */,
+				2C39618A1C85F4F1006A8113 /* YKSWeather.m in Sources */,
+				2C3961781C85F4F1006A8113 /* YKSLevelLogger.m in Sources */,
+				2C3961881C85F4F1006A8113 /* YKSUserInvite.m in Sources */,
+				3F6D61B11BF528B400857C0E /* YKSRequestSerializer.m in Sources */,
+				3F6D61AD1BF528B400857C0E /* YKSPRODRequestOperationManager.m in Sources */,
+				3F6D62021BF528B400857C0E /* YKSRequiredHardwareViewController.m in Sources */,
+				3F6D62D41BF528B400857C0E /* YKSServicesManager.m in Sources */,
+				2C3961741C85F4F1006A8113 /* YKSContact.m in Sources */,
+				3F6D61FE1BF528B400857C0E /* YKSDebugManager.m in Sources */,
+				2C3961821C85F4F1006A8113 /* YKSStay.m in Sources */,
+				2C3961761C85F4F1006A8113 /* YKSHotel.m in Sources */,
+				3F6D62E01BF528B400857C0E /* YKSLogger.m in Sources */,
+				3F6D61F01BF528B400857C0E /* YKSRequiredHardwareTableViewCell.m in Sources */,
+				3F6D61CF1BF528B400857C0E /* YKSHotelRequest.m in Sources */,
+				3F6D61A91BF528B400857C0E /* YKSDEVRequestOperationManager.m in Sources */,
+				3F6D61E21BF528B400857C0E /* YBLEManager.m in Sources */,
+				3F6D61B31BF528B400857C0E /* YKSResponseSerializer.m in Sources */,
+				3F6D61EC1BF528B400857C0E /* YKSDebugConsoleBLETriangleActiveCell.m in Sources */,
+				3F6D61DA1BF528B400857C0E /* YKSSessionManager.m in Sources */,
+				3F6D62C91BF528B400857C0E /* PrimaryYManDispatcher.m in Sources */,
+				3F6D62DC1BF528B400857C0E /* YKSError+Util.m in Sources */,
+				2CE61C8B1C86030A00284A84 /* YKSSession.m in Sources */,
+				3F6D62C71BF528B400857C0E /* MultiYManGAuthDispatcher.m in Sources */,
+				3F6D62C51BF528B400857C0E /* YMotionManager.m in Sources */,
+				3F6D61DC1BF528B400857C0E /* ConnectionManager.m in Sources */,
+				3F6D62B01BF528B400857C0E /* YikesEngineMP.m in Sources */,
+				3F6D62001BF528B400857C0E /* YKSRequiredHardwareNotificationCenter.m in Sources */,
+				2C3961701C85F4F1006A8113 /* YKSAddress.m in Sources */,
+				3F6D62CB1BF528B400857C0E /* YKSFileLogger.m in Sources */,
+				3F6D61D71BF528B400857C0E /* YKSAPIManager.m in Sources */,
+				3F6D61AF1BF528B400857C0E /* YKSQARequestOperationManager.m in Sources */,
+				3F6D62041BF528B400857C0E /* YKSRSSIHistogramViewController.m in Sources */,
+				3F6D61E71BF528B400857C0E /* YMan.m in Sources */,
+				3F6D61FC1BF528B400857C0E /* YKSDebugManager+BLEConnectionsSimulation.m in Sources */,
+				2C39617E1C85F4F1006A8113 /* YKSPrimaryYMan.m in Sources */,
+				3F6D62D11BF528B400857C0E /* YManReporter.m in Sources */,
+				3F6D61DE1BF528B400857C0E /* GuestAuth.m in Sources */,
+				3F6D62061BF528B400857C0E /* YKSTablesConnectionsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3C058151DA71E2100407687 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C0581C1DA71E2100407687 /* YikesEngineMPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3C058201DA71E2100407687 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F6D5FF51BF5272E00857C0E /* YikesEngineMP */;
+			targetProxy = C3C0581F1DA71E2100407687 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F6D60081BF5272E00857C0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F6D60091BF5272E00857C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F6D600B1BF5272E00857C0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28AC65051A9EAE28AC841183 /* Pods-YikesEngineMP.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = LC489JD2L3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YikesEngineMP/YikesEngineMP-PrefixHeader.pch";
+				INFOPLIST_FILE = YikesEngineMP/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yikesteam.YikesEngineMP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3F6D600C1BF5272E00857C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBA3323413402ABCC70FF9A9 /* Pods-YikesEngineMP.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = LC489JD2L3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YikesEngineMP/YikesEngineMP-PrefixHeader.pch";
+				INFOPLIST_FILE = YikesEngineMP/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yikesteam.YikesEngineMP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C3C058211DA71E2100407687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9691FE1316C6DE330160C006 /* Pods-YikesEngineMPTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = LC489JD2L3;
+				INFOPLIST_FILE = YikesEngineMPTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yikesteam.YikesEngineMPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C3C058221DA71E2100407687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DAF9BEDB7232928431BE2BA /* Pods-YikesEngineMPTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = LC489JD2L3;
+				INFOPLIST_FILE = YikesEngineMPTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yikesteam.YikesEngineMPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F6D5FF01BF5272E00857C0E /* Build configuration list for PBXProject "YikesEngineMP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6D60081BF5272E00857C0E /* Debug */,
+				3F6D60091BF5272E00857C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F6D600A1BF5272E00857C0E /* Build configuration list for PBXNativeTarget "YikesEngineMP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6D600B1BF5272E00857C0E /* Debug */,
+				3F6D600C1BF5272E00857C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3C058231DA71E2100407687 /* Build configuration list for PBXNativeTarget "YikesEngineMPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3C058211DA71E2100407687 /* Debug */,
+				C3C058221DA71E2100407687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F6D5FED1BF5272E00857C0E /* Project object */;
+}

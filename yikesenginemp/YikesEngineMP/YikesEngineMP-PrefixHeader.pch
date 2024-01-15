@@ -1,0 +1,24 @@
+//
+//  YikesEngineMP-PrefixHeader.pch
+//  YikesEngineMP
+//
+//  Created by Manny Singh on 11/12/15.
+//  Copyright © 2015 yikes. All rights reserved.
+//
+
+#ifndef YikesEngineMP_PrefixHeader_pch
+#define YikesEngineMP_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// Only log stuff for debugging - DLog runs on the main thread (should be - gives real-time logs) so remove them for TestFlight builds
+#ifdef DEBUG
+#define DLog(...) NSLog(@"%s %@", __PRETTY_FUNCTION__, [NSString stringWithFormat:__VA_ARGS__])
+#else
+#define DLog(...) do { } while (0)
+#endif
+
+//@import YikesSharedModel;
+
+#endif /* YikesEngineMP_PrefixHeader_pch */

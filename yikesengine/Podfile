@@ -1,0 +1,28 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://bitbucket.org/yikesdev/cocoapod-spec-repo'
+platform :ios, '9.0'
+
+workspace 'YikesEngineSP.xcworkspace'
+
+def sp_engine_pods
+
+pod 'Alamofire'
+pod 'AlamofireObjectMapper'
+pod 'KeychainAccess'
+pod 'ObjectMapper'
+pod 'CryptoSwift'
+pod 'PKHUD_Swift_3', '~> 4.0'
+pod 'YikesSharedModel', :path => '../YikesSharedModel'
+
+end
+
+abstract_target 'yikesEngine 'do use_frameworks!
+
+sp_engine_pods
+
+target 'YikesEngineSP' do
+end
+target 'YikesEngineSPTests' do
+end
+
+end
