@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IndicatorView">
+            <connections>
+                <outlet property="button" destination="bhz-2A-Ub1" id="cWH-jP-8dg"/>
+                <outlet property="buttonHeightConstraint" destination="euT-Is-qY9" id="1by-vS-cS0"/>
+                <outlet property="buttonWidthConstraint" destination="CQi-fM-nvB" id="jFw-vI-Uzh"/>
+                <outlet property="circleView" destination="PQx-0y-3BG" id="yZF-kV-uPR"/>
+                <outlet property="circleViewHeightConstraint" destination="PtU-1Z-RFk" id="La4-ux-kZs"/>
+                <outlet property="circleViewWidthConstraint" destination="YqK-Pj-DSK" id="a9D-M8-CG1"/>
+                <outlet property="innerCircleView" destination="gL5-vQ-G9b" id="5TT-05-rs6"/>
+                <outlet property="innerCircleViewHeightConstraint" destination="l3H-ad-fHh" id="I8r-Fi-2FU"/>
+                <outlet property="innerCircleViewWidthConstraint" destination="qJ9-yS-C2X" id="EEa-eV-bWV"/>
+                <outlet property="lockIconImageView" destination="SfW-ob-W1o" id="geb-9g-dJH"/>
+                <outlet property="statusDescLabel" destination="zwL-mV-Bh0" id="2yo-zQ-n3k"/>
+                <outlet property="tempStateCircleView" destination="Ki5-fe-VLt" id="Tm3-Kg-Hex"/>
+                <outlet property="tempStateCircleViewHeightConstraint" destination="Ljw-GM-FOW" id="FdH-cs-cXO"/>
+                <outlet property="tempStateCircleViewWidthConstraint" destination="4F2-0c-XTw" id="OYO-mb-nTK"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_lock_white" translatesAutoresizingMaskIntoConstraints="NO" id="SfW-ob-W1o" userLabel="Lock icon">
+                    <rect key="frame" x="40" y="-2" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="18" id="FQN-2s-Jhh"/>
+                        <constraint firstAttribute="width" constant="24" id="edf-IK-Mqr"/>
+                        <constraint firstAttribute="height" constant="18" id="m7J-Sw-f9K"/>
+                        <constraint firstAttribute="height" constant="24" id="rra-hb-vtg"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="FQN-2s-Jhh"/>
+                            <exclude reference="m7J-Sw-f9K"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ki5-fe-VLt">
+                    <rect key="frame" x="0.0" y="0.0" width="62" height="62"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="62" id="4F2-0c-XTw"/>
+                        <constraint firstAttribute="height" constant="62" id="Ljw-GM-FOW"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zwL-mV-Bh0">
+                    <rect key="frame" x="29" y="-3.5" width="4" height="13"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PQx-0y-3BG">
+                    <rect key="frame" x="0.0" y="0.0" width="62" height="62"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="62" id="PtU-1Z-RFk"/>
+                        <constraint firstAttribute="width" constant="62" id="YqK-Pj-DSK"/>
+                    </constraints>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gL5-vQ-G9b">
+                    <rect key="frame" x="6" y="6" width="50" height="50"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="l3H-ad-fHh"/>
+                        <constraint firstAttribute="width" constant="50" id="qJ9-yS-C2X"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bhz-2A-Ub1">
+                    <rect key="frame" x="0.0" y="0.0" width="62" height="62"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="62" id="CQi-fM-nvB"/>
+                        <constraint firstAttribute="height" constant="62" id="euT-Is-qY9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <state key="normal" backgroundImage="amenities_circle">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="amenityViewTapped:" destination="-1" eventType="touchUpInside" id="EL8-bj-Ewj"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="bhz-2A-Ub1" firstAttribute="centerX" secondItem="gL5-vQ-G9b" secondAttribute="centerX" id="9hf-1b-yqI"/>
+                <constraint firstItem="PQx-0y-3BG" firstAttribute="centerY" secondItem="bhz-2A-Ub1" secondAttribute="centerY" id="EIE-Tq-wzi"/>
+                <constraint firstItem="bhz-2A-Ub1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="F59-A6-osB"/>
+                <constraint firstItem="Ki5-fe-VLt" firstAttribute="centerX" secondItem="bhz-2A-Ub1" secondAttribute="centerX" id="FpB-Zk-5gd"/>
+                <constraint firstItem="SfW-ob-W1o" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="-2" id="HLy-vu-6LI"/>
+                <constraint firstItem="zwL-mV-Bh0" firstAttribute="centerY" secondItem="PQx-0y-3BG" secondAttribute="centerY" constant="-28" id="Rph-Kb-AAU"/>
+                <constraint firstItem="PQx-0y-3BG" firstAttribute="centerX" secondItem="bhz-2A-Ub1" secondAttribute="centerX" id="VRi-xm-DVf"/>
+                <constraint firstItem="SfW-ob-W1o" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="42" id="fYF-N3-Y6s"/>
+                <constraint firstItem="zwL-mV-Bh0" firstAttribute="centerX" secondItem="PQx-0y-3BG" secondAttribute="centerX" id="gID-71-poG"/>
+                <constraint firstItem="SfW-ob-W1o" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="2" id="nzg-sa-Zch"/>
+                <constraint firstItem="Ki5-fe-VLt" firstAttribute="centerY" secondItem="bhz-2A-Ub1" secondAttribute="centerY" id="ow5-Zg-I7J"/>
+                <constraint firstItem="SfW-ob-W1o" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="4" id="uo0-RN-sl1"/>
+                <constraint firstItem="bhz-2A-Ub1" firstAttribute="centerY" secondItem="gL5-vQ-G9b" secondAttribute="centerY" id="v49-9c-asz"/>
+                <constraint firstItem="SfW-ob-W1o" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="topMargin" constant="-4" id="v6P-u1-IXY"/>
+                <constraint firstItem="bhz-2A-Ub1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="zRU-SS-MQM"/>
+                <constraint firstItem="SfW-ob-W1o" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="40" id="zjF-Vm-4ac"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="fYF-N3-Y6s"/>
+                    <exclude reference="nzg-sa-Zch"/>
+                    <exclude reference="uo0-RN-sl1"/>
+                    <exclude reference="v6P-u1-IXY"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="750.5" y="263"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="amenities_circle" width="62" height="62"/>
+        <image name="ic_lock_white" width="24" height="24"/>
+    </resources>
+</document>

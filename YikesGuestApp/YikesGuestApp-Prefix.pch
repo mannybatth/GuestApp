@@ -1,0 +1,86 @@
+//
+//  YikesGuestApp-Prefix.pch
+//  YikesGuestApp
+//
+//  Created by Manny Singh on 6/24/15.
+//  Copyright (c) 2015 yikes. All rights reserved.
+//
+
+#ifndef YikesGuestApp_YikesGuestApp_Prefix_pch
+#define YikesGuestApp_YikesGuestApp_Prefix_pch
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "YikesGuestApp-Swift.h"
+
+#import "YKSAppDelegate.h"
+#import "YKSApplication.h"
+
+#import "UIColor+YKSColor.h"
+#import "YKSAssetsHelper.h"
+
+#import "AppManager.h"
+#import "YKSBaseVC.h"
+#import "YKSBaseTVC.h"
+
+#define YikesApplication ((YKSApplication *)[UIApplication sharedApplication])
+#define AppDelegate ((YKSAppDelegate *)[UIApplication sharedApplication].delegate)
+
+#ifdef ROGER
+// Only log stuff for debugging - CLS_LOG runs on the main thread (should be - gives real-time logs) so remove them for betas
+#ifndef DLOG
+#define DLog(...) NSLog(@"%s %@", __PRETTY_FUNCTION__, [NSString stringWithFormat:__VA_ARGS__])
+#elif DEBUG
+#define DLog(...) CLS_LOG(@"%s %@", __PRETTY_FUNCTION__, [NSString stringWithFormat:__VA_ARGS__])
+#else
+// in Release builds, don't log Debug logs
+#define DLog(...) do { } while (0)
+#endif
+#endif
+
+#define Alert(TITLE,MSG) \
+PKAlertViewController *alert = [PKAlertViewController alertControllerWithConfigurationBlock:^(PKAlertControllerConfiguration *configuration) { \
+    \
+    configuration.title = TITLE; \
+    configuration.message = MSG; \
+    configuration.presentationTransitionStyle = PKAlertControllerPresentationTransitionStyleFocusIn; \
+    \
+    NSMutableArray *actions = [NSMutableArray array]; \
+    [actions addObject:[PKAlertAction okAction]]; \
+    [configuration addActions:actions]; \
+    \
+}]; \
+[self presentViewController:alert animated:YES completion:nil];
+
+#endif
+
+// the notification that gets called when YKSPasscodeScreenVC is presented
+#define kApplicationLockScreenIsPresented @"AppLockScreenIsPresented"
+
+// the notification that gets called when YKSPasscodeScreenVC is dismissed
+#define kApplicationLockScreenIsDismissed @"AppLockScreenIsDismissed"
+
+//the length of time before your application "times out".
+#ifdef DEBUG
+// speed up testing:
+#define kApplicationForegroundTimeout 60//*60
+#define kApplicationBackgroundTimeout 12//*60
+#else
+#define kApplicationForegroundTimeout 5*60
+#define kApplicationBackgroundTimeout 1*60
+#endif
+
+//the notification your AppDelegate needs to watch for in order to know that it has indeed "timed out"
+#define kApplicationDidTimeoutNotification @"AppTimeout"
+
+//the number of seconds the user is locked out of app after exceeding max attempts
+#ifdef DEBUG
+#define kApplicationAppLockout 10//*60
+#else
+#define kApplicationAppLockout 10*60
+#endif
+//the notification your AppDelegate needs to watch for in order to know when the lock out period has ended
+#define kApplicationLockoutDidEndNotification @"AppLockoutEnded"
+

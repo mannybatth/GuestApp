@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YKSPasscodeScreenVC">
+            <connections>
+                <outlet property="cancelButton" destination="hjh-wQ-OBG" id="j38-f4-WCf"/>
+                <outlet property="deleteButton" destination="QKE-a2-wmX" id="bJP-wa-Ytq"/>
+                <outlet property="forgotPasscodeButton" destination="EsD-IC-GOv" id="ek4-de-sCT"/>
+                <outlet property="passcodeCirclesView" destination="3cA-JF-HgY" id="UFA-w3-A3K"/>
+                <outlet property="timeLeftLabel" destination="o44-TU-Xxd" id="702-uU-8lS"/>
+                <outlet property="titleLabel" destination="7nv-rR-hkb" id="8jP-du-m5k"/>
+                <outlet property="view" destination="Ffa-Yo-Pmt" id="slT-n8-ybe"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Ffa-Yo-Pmt">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="enter passcode" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7nv-rR-hkb">
+                    <rect key="frame" x="241" y="103" width="118" height="20"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o44-TU-Xxd" userLabel="time left">
+                    <rect key="frame" x="173" y="133" width="255" height="12"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3cA-JF-HgY" userLabel="circles view">
+                    <rect key="frame" x="173" y="133" width="255" height="12"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="06h-CB-6xj" userLabel="Pin Circle View 1" customClass="YKSPasscodeCircleView">
+                            <rect key="frame" x="81" y="0.0" width="12" height="12"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="12" id="UJl-ut-OQ8"/>
+                                <constraint firstAttribute="height" constant="12" id="fe6-jd-UbS"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vaT-Ix-rMt" userLabel="Pin Circle View 2" customClass="YKSPasscodeCircleView">
+                            <rect key="frame" x="108" y="0.0" width="12" height="12"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="12" id="02e-hv-Hjt"/>
+                                <constraint firstAttribute="height" constant="12" id="Chn-S9-7zl"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bAv-YH-ZXe" userLabel="Pin Circle View 3" customClass="YKSPasscodeCircleView">
+                            <rect key="frame" x="135" y="0.0" width="12" height="12"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="12" id="4Ro-zT-oIa"/>
+                                <constraint firstAttribute="height" constant="12" id="JAu-MY-XtJ"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oQ7-Ix-CaI" userLabel="Pin Circle View 4" customClass="YKSPasscodeCircleView">
+                            <rect key="frame" x="162" y="0.0" width="12" height="12"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="12" id="jpg-Ob-6wC"/>
+                                <constraint firstAttribute="height" constant="12" id="rPL-cl-Pdr"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="vaT-Ix-rMt" firstAttribute="leading" secondItem="06h-CB-6xj" secondAttribute="trailing" constant="15" id="3jr-Fp-Iqh"/>
+                        <constraint firstItem="vaT-Ix-rMt" firstAttribute="top" secondItem="3cA-JF-HgY" secondAttribute="top" id="5hJ-fE-ADX"/>
+                        <constraint firstItem="oQ7-Ix-CaI" firstAttribute="leading" secondItem="bAv-YH-ZXe" secondAttribute="trailing" constant="15" id="9QR-We-0N4"/>
+                        <constraint firstAttribute="height" constant="12" id="Njt-QJ-KPW"/>
+                        <constraint firstAttribute="centerX" secondItem="vaT-Ix-rMt" secondAttribute="centerX" constant="14" id="T9A-7I-5Tp"/>
+                        <constraint firstItem="bAv-YH-ZXe" firstAttribute="leading" secondItem="vaT-Ix-rMt" secondAttribute="trailing" constant="15" id="WAa-KJ-SbH"/>
+                        <constraint firstItem="oQ7-Ix-CaI" firstAttribute="top" secondItem="3cA-JF-HgY" secondAttribute="top" id="a9Y-sw-hXx"/>
+                        <constraint firstItem="bAv-YH-ZXe" firstAttribute="top" secondItem="3cA-JF-HgY" secondAttribute="top" id="oBC-qr-ayk"/>
+                        <constraint firstItem="06h-CB-6xj" firstAttribute="top" secondItem="3cA-JF-HgY" secondAttribute="top" id="wCa-OG-GfQ"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bI7-Yy-jcw" userLabel="1" customClass="ABPadButton">
+                    <rect key="frame" x="173" y="163" width="75" height="75"/>
+                    <color key="backgroundColor" red="0.3852648008453336" green="0.58656938569714323" blue="0.10919210506294776" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="75" id="T7Z-Ys-jOI"/>
+                        <constraint firstAttribute="width" constant="75" id="Vjg-xi-wJd"/>
+                    </constraints>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="number">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="letters" value=""/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="pinButtonSelected:" destination="-1" eventType="touchUpInside" id="bq0-3p-Ect"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GKl-Tu-J22" userLabel="2" customClass="ABPadButton">
+                    <rect key="frame" x="263" y="163" width="75" height="75"/>
+                    <color key="backgroundColor" red="0.38526480079999997" green="0.58656938569999995" blue="0.10919210510000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="75" id="CY7-vu-1pP"/>
+                        <constraint firstAttribute="height" constant="75" id="hPr-QM-28v"/>
+                    </constraints>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="number">
+                            <integer key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="letters" value="ABC"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="pinButtonSelected:" destination="-1" eventType="touchUpInside" id="XO4-hz-nOv"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jim-nF-uvM" userLabel="3" customClass="ABPadButton">
+                    <rect key="frame" x="353" y="163" width="75" height="75"/>
+                    <color key="backgroundColor" red="0.38526480079999997" green="0.58656938569999995" blue="0.10919210510000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="75" id="7I3-tx-JmN"/>
+                        <constraint firstAttribute="height" constant="75" id="hZM-fO-wzR"/>
+                    </constraints>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="number">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="letters" value="DEF"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="pinButtonSelected:" destination="-1" eventType="touchUpInside" id="r48-Xf-neB"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Itt-yT-eDm" userLabel="4" customClass="ABPadButton">
+                    <rect key="frame" x="173" y="253" width="75" height="75"/>
+                    <color key="backgroundColor" red="0.38526480079999997" green="0.58656938569999995" blue="0.10919210510000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="75" id="4s2-Pj-zC2"/>
+                        <constraint firstAttribute="width" constant="75" id="ugP-9t-wRf"/>
+                    </constraints>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="number">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="letters" value="GHI"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="pinButtonSelected:" destination="-1" eventType="touchUpInside" id="eco-aZ-5NF"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jqa-nW-mPS" userLabel="5" customClass="ABPadButton">
+                    <rect key="frame" x="263" y="253" width="75" height="75"/>
+                    <color key="backgroundColor" red="0.38526480079999997" green="0.58656938569999995" blue="0.10919210510000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="75" id="7JB-At-gUK"/>
+                        <constraint firstAttribute="height" constant="75" id="sEb-wA-Lb6"/>
+                    </constraints>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="number">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="letters" value="JKL"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="pinButtonSelected:" destination="-1" eventType="touchUpInside" id="mC9-me-en7"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r1D-v4-z3P" userLabel="6" customClass="ABPadButton">
+                    <rect key="frame" x="353" y="253" width="75" height="75"/>
+                    <color key="backgroundColor" red="0.38526480079999997" green="0.58656938569999995" blue="0.10919210510000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="75" id="JPM-R4-WxA"/>
+                        <constraint firstAttribute="width" constant="75" id="WOJ-gI-AGC"/>
+                    </constraints>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="number">
+                            <integer key="value" value="6"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="letters" value="MNO"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="pinButtonSelected:" destination="-1" eventType="touchUpInside" id="kw2-Sv-YQe"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0eY-1H-MFY" userLabel="7" customClass="ABPadButton">
+                    <rect key="frame" x="173" y="343" width="75" height="75"/>
+                    <color key="backgroundColor" red="0.38526480079999997" green="0.58656938569999995" blue="0.10919210510000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="75" id="314-xS-Gt6"/>
+                        <constraint firstAttribute="width" constant="75" id="CxK-vw-Rm6"/>
+                    </constraints>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="number">
+                            <integer key="value" value="7"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="letters" value="PQRS"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="pinButtonSelected:" destination="-1" eventType="touchUpInside" id="qct-Wd-tYQ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vXn-ET-9Yf" userLabel="8" customClass="ABPadButton">
+                    <rect key="frame" x="263" y="343" width="75" height="75"/>
+                    <color key="backgroundColor" red="0.38526480079999997" green="0.58656938569999995" blue="0.10919210510000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="75" id="1Ra-Sg-qAc"/>
+                        <constraint firstAttribute="height" constant="75" id="gia-71-Cpy"/>
+                    </constraints>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="number">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="letters" value="TUV"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="pinButtonSelected:" destination="-1" eventType="touchUpInside" id="2ku-tk-FbK"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kYp-WD-RW1" userLabel="9" customClass="ABPadButton">
+                    <rect key="frame" x="353" y="343" width="75" height="75"/>
+                    <color key="backgroundColor" red="0.38526480079999997" green="0.58656938569999995" blue="0.10919210510000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="75" id="GOM-lH-1XG"/>
+                        <constraint firstAttribute="width" constant="75" id="GjC-It-f3t"/>
+                    </constraints>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="number">
+                            <integer key="value" value="9"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="letters" value="WXYZ"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="pinButtonSelected:" destination="-1" eventType="touchUpInside" id="Gjh-D3-Glu"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="soY-Cd-q4e" userLabel="0" customClass="ABPadButton">
+                    <rect key="frame" x="263" y="433" width="75" height="75"/>
+                    <color key="backgroundColor" red="0.38526480079999997" green="0.58656938569999995" blue="0.10919210510000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="75" id="fLk-G1-hOL"/>
+                        <constraint firstAttribute="width" constant="75" id="jCp-HV-U3N"/>
+                    </constraints>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="number">
+                            <integer key="value" value="0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="letters" value=""/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="pinButtonSelected:" destination="-1" eventType="touchUpInside" id="May-BI-mcJ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EsD-IC-GOv">
+                    <rect key="frame" x="16" y="557" width="130" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="C2M-y1-ClB"/>
+                        <constraint firstAttribute="width" constant="130" id="Vd6-uH-G0v"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                    <state key="normal" title="Forgot passcode?">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="disabled">
+                        <color key="titleColor" white="1" alpha="0.10000000000000001" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="forgotPasscodeSelected:" destination="-1" eventType="touchUpInside" id="PWf-pN-Zur"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hjh-wQ-OBG">
+                    <rect key="frame" x="524" y="557" width="60" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="17i-xw-c1p"/>
+                        <constraint firstAttribute="width" constant="60" id="zNJ-Gf-UrB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                    <state key="normal" title="Cancel">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="cancelButtonSelected:" destination="-1" eventType="touchUpInside" id="Q0I-a1-oKt"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QKE-a2-wmX">
+                    <rect key="frame" x="524" y="557" width="60" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="N6q-vt-ZDm"/>
+                        <constraint firstAttribute="width" constant="60" id="dhO-8d-rzK"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                    <state key="normal" title="Delete">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="deleteButtonSelected:" destination="-1" eventType="touchUpInside" id="CIJ-Me-qaA"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="GKl-Tu-J22" firstAttribute="leading" secondItem="bI7-Yy-jcw" secondAttribute="trailing" constant="15" id="0B1-WY-I8O"/>
+                <constraint firstAttribute="centerX" secondItem="Jqa-nW-mPS" secondAttribute="centerX" id="0Ha-DP-yeM"/>
+                <constraint firstItem="EsD-IC-GOv" firstAttribute="leading" secondItem="Ffa-Yo-Pmt" secondAttribute="leading" constant="16" id="0Ys-uK-p9d"/>
+                <constraint firstItem="QKE-a2-wmX" firstAttribute="leading" secondItem="hjh-wQ-OBG" secondAttribute="leading" id="3Dm-8q-5iK"/>
+                <constraint firstAttribute="trailing" secondItem="hjh-wQ-OBG" secondAttribute="trailing" constant="16" id="5CJ-kA-P1w"/>
+                <constraint firstItem="Jim-nF-uvM" firstAttribute="leading" secondItem="r1D-v4-z3P" secondAttribute="leading" id="5HB-Kv-laH"/>
+                <constraint firstItem="GKl-Tu-J22" firstAttribute="top" secondItem="3cA-JF-HgY" secondAttribute="bottom" constant="18" id="68P-4h-hKj"/>
+                <constraint firstItem="3cA-JF-HgY" firstAttribute="top" secondItem="7nv-rR-hkb" secondAttribute="bottom" constant="10" id="Bl6-uR-iaP"/>
+                <constraint firstItem="Jim-nF-uvM" firstAttribute="leading" secondItem="GKl-Tu-J22" secondAttribute="trailing" constant="15" id="Brx-kq-oq8"/>
+                <constraint firstAttribute="centerX" secondItem="vXn-ET-9Yf" secondAttribute="centerX" id="CTN-hG-maZ"/>
+                <constraint firstItem="0eY-1H-MFY" firstAttribute="leading" secondItem="Itt-yT-eDm" secondAttribute="leading" id="DsE-ed-Uuz"/>
+                <constraint firstItem="o44-TU-Xxd" firstAttribute="centerY" secondItem="3cA-JF-HgY" secondAttribute="centerY" id="KR4-vb-FAn"/>
+                <constraint firstItem="Jqa-nW-mPS" firstAttribute="top" secondItem="GKl-Tu-J22" secondAttribute="bottom" constant="15" id="MMD-9R-dqv"/>
+                <constraint firstItem="QKE-a2-wmX" firstAttribute="height" secondItem="hjh-wQ-OBG" secondAttribute="height" id="N7e-Qp-oFV"/>
+                <constraint firstAttribute="centerX" secondItem="GKl-Tu-J22" secondAttribute="centerX" id="Nok-az-CEc"/>
+                <constraint firstItem="vXn-ET-9Yf" firstAttribute="top" secondItem="Jqa-nW-mPS" secondAttribute="bottom" constant="15" id="ODL-D1-vEX"/>
+                <constraint firstItem="soY-Cd-q4e" firstAttribute="top" secondItem="vXn-ET-9Yf" secondAttribute="bottom" constant="15" id="PJn-mu-wss"/>
+                <constraint firstItem="bI7-Yy-jcw" firstAttribute="leading" secondItem="3cA-JF-HgY" secondAttribute="leading" id="PQk-nw-iLS"/>
+                <constraint firstItem="o44-TU-Xxd" firstAttribute="width" secondItem="3cA-JF-HgY" secondAttribute="width" id="TUx-xz-MkL"/>
+                <constraint firstItem="QKE-a2-wmX" firstAttribute="top" secondItem="hjh-wQ-OBG" secondAttribute="top" id="U4e-9x-7VI"/>
+                <constraint firstItem="o44-TU-Xxd" firstAttribute="height" secondItem="3cA-JF-HgY" secondAttribute="height" id="UGA-4P-LLn"/>
+                <constraint firstItem="r1D-v4-z3P" firstAttribute="top" secondItem="Jqa-nW-mPS" secondAttribute="top" id="WSD-qM-Emo"/>
+                <constraint firstAttribute="centerX" secondItem="7nv-rR-hkb" secondAttribute="centerX" id="YDa-og-yYx"/>
+                <constraint firstItem="Jim-nF-uvM" firstAttribute="top" secondItem="GKl-Tu-J22" secondAttribute="top" id="Yal-MY-00e"/>
+                <constraint firstItem="QKE-a2-wmX" firstAttribute="width" secondItem="hjh-wQ-OBG" secondAttribute="width" id="dLn-Ux-vR3"/>
+                <constraint firstAttribute="bottom" secondItem="hjh-wQ-OBG" secondAttribute="bottom" constant="8" id="dwn-nX-aA3"/>
+                <constraint firstItem="GKl-Tu-J22" firstAttribute="top" secondItem="bI7-Yy-jcw" secondAttribute="top" id="e61-qM-uoe"/>
+                <constraint firstItem="Itt-yT-eDm" firstAttribute="leading" secondItem="bI7-Yy-jcw" secondAttribute="leading" id="e9b-Uw-CTF"/>
+                <constraint firstItem="r1D-v4-z3P" firstAttribute="leading" secondItem="kYp-WD-RW1" secondAttribute="leading" id="eBq-v2-ODc"/>
+                <constraint firstAttribute="centerY" secondItem="Jqa-nW-mPS" secondAttribute="centerY" constant="10" id="gco-kR-aai"/>
+                <constraint firstAttribute="bottom" secondItem="EsD-IC-GOv" secondAttribute="bottom" constant="8" id="hcf-or-0Xc"/>
+                <constraint firstItem="vXn-ET-9Yf" firstAttribute="top" secondItem="kYp-WD-RW1" secondAttribute="top" id="lFd-yd-w0t"/>
+                <constraint firstAttribute="centerX" secondItem="soY-Cd-q4e" secondAttribute="centerX" id="pL8-5g-H9k"/>
+                <constraint firstItem="3cA-JF-HgY" firstAttribute="trailing" secondItem="Jim-nF-uvM" secondAttribute="trailing" id="pSV-yd-M4s"/>
+                <constraint firstItem="Itt-yT-eDm" firstAttribute="top" secondItem="Jqa-nW-mPS" secondAttribute="top" id="vxM-Dg-wgY"/>
+                <constraint firstItem="o44-TU-Xxd" firstAttribute="centerX" secondItem="3cA-JF-HgY" secondAttribute="centerX" constant="-0.5" id="x3h-rJ-kZF"/>
+                <constraint firstItem="0eY-1H-MFY" firstAttribute="top" secondItem="vXn-ET-9Yf" secondAttribute="top" id="xcF-QA-uKC"/>
+            </constraints>
+            <point key="canvasLocation" x="260" y="272"/>
+        </view>
+    </objects>
+</document>

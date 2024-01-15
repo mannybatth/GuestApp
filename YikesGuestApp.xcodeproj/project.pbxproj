@@ -1,0 +1,1899 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C8D1D9F1C7226BD00D32345 /* YKSTemporaryPwdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D1D9E1C7226BD00D32345 /* YKSTemporaryPwdVC.swift */; };
+		3F0535D11BCBF81D00D0F572 /* YKSWalkthroughGetStartedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0535D01BCBF81D00D0F572 /* YKSWalkthroughGetStartedVC.m */; };
+		3F0535D51BCBF84700D0F572 /* YKSWalkthroughGetStartedTC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0535D41BCBF84700D0F572 /* YKSWalkthroughGetStartedTC.m */; };
+		3F11067F1BDA769500986E8F /* YKSForgotPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F11067E1BDA769500986E8F /* YKSForgotPasswordVC.m */; };
+		3F2BA7E81BFF8BBA00754A27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2BA7E71BFF8BBA00754A27 /* AppDelegate.swift */; };
+		3F2BA7EA1BFF8BBA00754A27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2BA7E91BFF8BBA00754A27 /* ViewController.swift */; };
+		3F2BA7ED1BFF8BBA00754A27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2BA7EB1BFF8BBA00754A27 /* Main.storyboard */; };
+		3F2BA7EF1BFF8BBA00754A27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2BA7EE1BFF8BBA00754A27 /* Assets.xcassets */; };
+		3F2BA7F21BFF8BBA00754A27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2BA7F01BFF8BBA00754A27 /* LaunchScreen.storyboard */; };
+		3F2BA7FD1BFF8BBA00754A27 /* YikesGuestAppSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2BA7FC1BFF8BBA00754A27 /* YikesGuestAppSampleTests.swift */; };
+		3F2BA8081BFF8BBA00754A27 /* YikesGuestAppSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2BA8071BFF8BBA00754A27 /* YikesGuestAppSampleUITests.swift */; };
+		3F2D9C371B3AFA9F00B56242 /* YikesGuestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D9C361B3AFA9F00B56242 /* YikesGuestAppTests.m */; };
+		3F3127C91C5FB46200295004 /* YKSBaseTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3127C81C5FB46200295004 /* YKSBaseTVC.m */; };
+		3F3127CE1C5FB8B500295004 /* PasscodeTouchIdTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3127CD1C5FB8B500295004 /* PasscodeTouchIdTVC.swift */; };
+		3F3127D71C60123F00295004 /* TroubleshootingTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3127D61C60123F00295004 /* TroubleshootingTVC.swift */; };
+		3F6202191E8D3A21007ADAAC /* YKSSPLocationManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6202181E8D3A21007ADAAC /* YKSSPLocationManager.framework */; };
+		3F67264F1C84A7A0001ECA7D /* Walkthrough.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F67264D1C84A7A0001ECA7D /* Walkthrough.storyboard */; };
+		3F6726541C84A809001ECA7D /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6726521C84A809001ECA7D /* Settings.storyboard */; };
+		3F67265A1C84AF7B001ECA7D /* AccountDetailsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6726591C84AF7B001ECA7D /* AccountDetailsTVC.swift */; };
+		3F6726611C84C93C001ECA7D /* AccountDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6726601C84C93C001ECA7D /* AccountDetailsCell.swift */; };
+		3F6D62FF1BF530CF00857C0E /* YikesGuestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D62FE1BF530CF00857C0E /* YikesGuestAppUITests.swift */; };
+		3F99BFBD1BC2D87300012667 /* YKSContactPickerNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F99BFB81BC2D87300012667 /* YKSContactPickerNC.m */; };
+		3F99BFBF1BC2D87300012667 /* YKSContactPickerTC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F99BFBA1BC2D87300012667 /* YKSContactPickerTC.m */; };
+		3F99BFC11BC2D87300012667 /* YKSContactPickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F99BFBC1BC2D87300012667 /* YKSContactPickerVC.m */; };
+		3F99BFC81BC4331B00012667 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F99BFC71BC4331B00012667 /* Contacts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		3F99BFCF1BC4473700012667 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F99BFCE1BC4473700012667 /* AddressBook.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		3F99BFD21BC454D800012667 /* YKSImportContactsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F99BFD11BC454D800012667 /* YKSImportContactsVC.m */; };
+		3F9DE53D1D353395009A5072 /* YKSSignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9DE53C1D353395009A5072 /* YKSSignUpVC.swift */; };
+		3F9DE5F41D494CE8009A5072 /* unlock_door.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F9DE5F31D494CE8009A5072 /* unlock_door.mp4 */; };
+		3F9DE6031D494D3D009A5072 /* IndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9DE5FB1D494D3D009A5072 /* IndicatorView.m */; };
+		3F9DE6051D494D3D009A5072 /* IndicatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F9DE5FC1D494D3D009A5072 /* IndicatorView.xib */; };
+		3F9DE6071D494D3D009A5072 /* MultiplePulsingHaloLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9DE5FE1D494D3D009A5072 /* MultiplePulsingHaloLayer.m */; };
+		3F9DE6091D494D3D009A5072 /* PulsingHaloLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9DE6001D494D3D009A5072 /* PulsingHaloLayer.m */; };
+		3F9DE60B1D494D3D009A5072 /* YKSAmenityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9DE6021D494D3D009A5072 /* YKSAmenityViewController.m */; };
+		3F9DE60E1D494DD1009A5072 /* UnlockDoorTipVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9DE60D1D494DD1009A5072 /* UnlockDoorTipVC.swift */; };
+		3FA6394A1C0E3A4F00E41D69 /* YKSAirplaneModeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA639491C0E3A4F00E41D69 /* YKSAirplaneModeVC.m */; };
+		3FA6394D1C0E3BE800E41D69 /* YKSAirplaneModeTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA6394C1C0E3BE800E41D69 /* YKSAirplaneModeTVC.m */; };
+		3FAE57B81B9634C2004BECA0 /* YKSSharedKeysNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDE0851B94E3D10021DE4B /* YKSSharedKeysNC.m */; };
+		3FAE57B91B9634C5004BECA0 /* YKSSharedKeysVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD7CA1C1B9498C6005053E4 /* YKSSharedKeysVC.m */; };
+		3FAE57BA1B9634C7004BECA0 /* YKSSharedKeysTC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDE0881B94F8180021DE4B /* YKSSharedKeysTC.m */; };
+		3FAE57BB1B9634E5004BECA0 /* YKSDashboardCardOptionsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFDE0821B94D3EC0021DE4B /* YKSDashboardCardOptionsVC.m */; };
+		3FB2C68C1C7CBD5300C3A3C7 /* YikesGuestApp.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = ED3128821B582C0B0067F747 /* YikesGuestApp.entitlements */; };
+		3FB9A2001B963845004FB818 /* YKSNotificationsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9A1FE1B963845004FB818 /* YKSNotificationsVC.m */; };
+		3FB9A2041B96387F004FB818 /* YKSNotificationsNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9A2021B96387F004FB818 /* YKSNotificationsNC.m */; };
+		3FB9A2081B963898004FB818 /* YKSNotificationsTC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9A2061B963898004FB818 /* YKSNotificationsTC.m */; };
+		3FC3CBDE1BC5B027003DE1D3 /* YKSWalkthroughVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3CBDD1BC5B027003DE1D3 /* YKSWalkthroughVC.m */; };
+		3FC3CBE21BC5B069003DE1D3 /* YKSWalkthroughNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3CBE11BC5B069003DE1D3 /* YKSWalkthroughNC.m */; };
+		3FC3CBE61BC5B0B0003DE1D3 /* YKSWalkthroughCardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3CBE51BC5B0B0003DE1D3 /* YKSWalkthroughCardVC.m */; };
+		3FC3CBE91BC6B0A8003DE1D3 /* peace_of_mind_animation.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3CBE81BC6B0A8003DE1D3 /* peace_of_mind_animation.mp4 */; };
+		3FCA07C21C6A40EA00E3D6BE /* MissingDeviceRequirementsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA07C11C6A40EA00E3D6BE /* MissingDeviceRequirementsVC.swift */; };
+		3FDB74981C1F19A80037F001 /* DateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB748F1C1F19A80037F001 /* DateHelper.m */; };
+		3FDB74991C1F19A80037F001 /* PKAlertYikesTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB74911C1F19A80037F001 /* PKAlertYikesTheme.m */; };
+		3FDB749A1C1F19A80037F001 /* UIColor+YKSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB74931C1F19A80037F001 /* UIColor+YKSColor.m */; };
+		3FDB749B1C1F19A80037F001 /* YKSAssetsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB74951C1F19A80037F001 /* YKSAssetsHelper.m */; };
+		3FDB749C1C1F19A80037F001 /* YKSBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB74971C1F19A80037F001 /* YKSBaseVC.m */; };
+		3FDB74BE1C1F229C0037F001 /* SVModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB74A91C1F229C0037F001 /* SVModalWebViewController.m */; };
+		3FDB74BF1C1F229C0037F001 /* SVWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB74AA1C1F229C0037F001 /* SVWebViewController.bundle */; };
+		3FDB74C01C1F229C0037F001 /* SVWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB74AC1C1F229C0037F001 /* SVWebViewController.m */; };
+		3FDB74C11C1F229C0037F001 /* SVWebViewControllerActivityChrome-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB74AF1C1F229C0037F001 /* SVWebViewControllerActivityChrome-iPad.png */; };
+		3FDB74C21C1F229C0037F001 /* SVWebViewControllerActivityChrome-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB74B01C1F229C0037F001 /* SVWebViewControllerActivityChrome-iPad@2x.png */; };
+		3FDB74C31C1F229C0037F001 /* SVWebViewControllerActivityChrome.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB74B21C1F229C0037F001 /* SVWebViewControllerActivityChrome.m */; };
+		3FDB74C41C1F229C0037F001 /* SVWebViewControllerActivityChrome@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB74B31C1F229C0037F001 /* SVWebViewControllerActivityChrome@2x.png */; };
+		3FDB74C51C1F229C0037F001 /* SVWebViewControllerActivitySafari-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB74B51C1F229C0037F001 /* SVWebViewControllerActivitySafari-iPad.png */; };
+		3FDB74C61C1F229C0037F001 /* SVWebViewControllerActivitySafari-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB74B61C1F229C0037F001 /* SVWebViewControllerActivitySafari-iPad@2x.png */; };
+		3FDB74C71C1F229C0037F001 /* SVWebViewControllerActivitySafari.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB74B81C1F229C0037F001 /* SVWebViewControllerActivitySafari.m */; };
+		3FDB74C81C1F229C0037F001 /* SVWebViewControllerActivitySafari@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB74B91C1F229C0037F001 /* SVWebViewControllerActivitySafari@2x.png */; };
+		3FDB74C91C1F229C0037F001 /* SVWebViewControllerActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB74BB1C1F229C0037F001 /* SVWebViewControllerActivity.m */; };
+		3FE574B51BDFBD0100A99973 /* YKSLicenseAgreementVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE574B41BDFBD0100A99973 /* YKSLicenseAgreementVC.m */; };
+		3FE574B81BDFBE8800A99973 /* YKSLicenseAgreementNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE574B71BDFBE8800A99973 /* YKSLicenseAgreementNC.m */; };
+		3FE574BA1BDFDA8E00A99973 /* EULA.html in Resources */ = {isa = PBXBuildFile; fileRef = 3FE574B91BDFDA8E00A99973 /* EULA.html */; };
+		C3610B5F1DDA57B300E6358B /* failure.caf in Resources */ = {isa = PBXBuildFile; fileRef = C3610B5D1DDA57B300E6358B /* failure.caf */; };
+		C3610B601DDA57B300E6358B /* success.caf in Resources */ = {isa = PBXBuildFile; fileRef = C3610B5E1DDA57B300E6358B /* success.caf */; };
+		C3610B651DDA626800E6358B /* congestion.caf in Resources */ = {isa = PBXBuildFile; fileRef = C3610B611DDA607600E6358B /* congestion.caf */; };
+		C3610B661DDA626800E6358B /* start.caf in Resources */ = {isa = PBXBuildFile; fileRef = C3610B621DDA607600E6358B /* start.caf */; };
+		C3610B671DDA626800E6358B /* stop.caf in Resources */ = {isa = PBXBuildFile; fileRef = C3610B631DDA607600E6358B /* stop.caf */; };
+		C3610B681DDA626800E6358B /* tick.caf in Resources */ = {isa = PBXBuildFile; fileRef = C3610B641DDA607600E6358B /* tick.caf */; };
+		C3EF8FCC1DCEC68B00C81A9E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA0A1111BD42C440077EC5A /* libz.tbd */; };
+		EDB647AB1B95339700D5B70D /* YKSLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5B6A51B3C7B4E00C3BB10 /* YKSLoginVC.m */; };
+		EDB647AC1B95339700D5B70D /* YKSCountryPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5257861B61328B00812071 /* YKSCountryPicker.m */; };
+		EDB647AD1B95339700D5B70D /* YKSApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD47CFF1B8374E9003DF9A5 /* YKSApplication.m */; };
+		EDB647AF1B95339700D5B70D /* YKSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D9C1F1B3AFA9F00B56242 /* YKSAppDelegate.m */; };
+		EDB647B11B95339700D5B70D /* YKSDashboardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5B6DF1B41DCC400C3BB10 /* YKSDashboardVC.m */; };
+		EDB647B21B95339700D5B70D /* YKSHelpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5B6D31B3DC8D900C3BB10 /* YKSHelpVC.m */; };
+		EDB647B31B95339700D5B70D /* YKSSettingsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3001721B50D243002CA91F /* YKSSettingsTVC.m */; };
+		EDB647B41B95339700D5B70D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D9C1C1B3AFA9F00B56242 /* main.m */; };
+		EDB647B51B95339700D5B70D /* YKSCountryPickerNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F38CF161B62806D007E2E42 /* YKSCountryPickerNC.m */; };
+		EDB647B61B95339700D5B70D /* YKSTestAccounts.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D9C5D1B3B25D500B56242 /* YKSTestAccounts.m */; };
+		EDB647B71B95339700D5B70D /* ABPadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD47CF11B825BBC003DF9A5 /* ABPadButton.m */; };
+		EDB647B91B95339700D5B70D /* YKSCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5257891B61355700812071 /* YKSCountry.m */; };
+		EDB647BA1B95339700D5B70D /* YKSPasscodeScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD47CF51B825BBC003DF9A5 /* YKSPasscodeScreenVC.m */; };
+		EDB647BB1B95339700D5B70D /* YKSSignUpCompleted.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5B6BB1B3C7B4E00C3BB10 /* YKSSignUpCompleted.m */; };
+		EDB647BD1B95339700D5B70D /* YKSPasscodeCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD47CF31B825BBC003DF9A5 /* YKSPasscodeCircleView.m */; };
+		EDB647C01B95339700D5B70D /* YKSLoginNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD4414C1B51F0410017E91F /* YKSLoginNC.m */; };
+		EDB647C11B95339700D5B70D /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D9C581B3B252B00B56242 /* AppManager.m */; };
+		EDB647C21B95339700D5B70D /* YKSSettingsNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3001751B50D83A002CA91F /* YKSSettingsNC.m */; };
+		EDB647C41B95339700D5B70D /* YKSDashboardCardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FACB4AB1B580FD9000AE968 /* YKSDashboardCardVC.m */; };
+		EDB647C51B95339700D5B70D /* YKSSideBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F30016B1B4EF18F002CA91F /* YKSSideBarVC.m */; };
+		EDB647C61B95339700D5B70D /* YKSNoStaysVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFCF6FF1B51700700CC7F59 /* YKSNoStaysVC.m */; };
+		EDB647CA1B95339700D5B70D /* YKSStayDetailsNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52577A1B5EA5EC00812071 /* YKSStayDetailsNC.m */; };
+		EDB647CC1B95339700D5B70D /* YKSPhoneHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5B68C1B3C78EB00C3BB10 /* YKSPhoneHelper.m */; };
+		EDB647CE1B95339700D5B70D /* YKSUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 331B6A4A1B6C154900798914 /* YKSUtilities.m */; };
+		EDB647CF1B95339700D5B70D /* YKSDashboardNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5B6E11B41DCC400C3BB10 /* YKSDashboardNC.m */; };
+		EDB647D01B95339700D5B70D /* YKSStayDetailsTC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5257801B5EED6D00812071 /* YKSStayDetailsTC.m */; };
+		EDB647D11B95339700D5B70D /* YKSStayDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52577C1B5EA5EC00812071 /* YKSStayDetailsVC.m */; };
+		EDB647D31B95339700D5B70D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD441461B5182DA0017E91F /* MediaPlayer.framework */; };
+		EDB647D41B95339700D5B70D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2D9C4A1B3B1A4900B56242 /* Foundation.framework */; };
+		EDB647D71B95339700D5B70D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2D9C481B3B1A4200B56242 /* UIKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		EDB647DC1B95339700D5B70D /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2D9C4E1B3B1B6100B56242 /* Login.storyboard */; };
+		EDB647DD1B95339700D5B70D /* YKSPasscodeScreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FD47CF61B825BBC003DF9A5 /* YKSPasscodeScreenVC.xib */; };
+		EDB647DF1B95339700D5B70D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2D9C241B3AFA9F00B56242 /* Main.storyboard */; };
+		EDB647E01B95339700D5B70D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F2D9C291B3AFA9F00B56242 /* LaunchScreen.xib */; };
+		EDB647E11B95339700D5B70D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2D9C271B3AFA9F00B56242 /* Images.xcassets */; };
+		EDB647E31B95339700D5B70D /* no_stays_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3FD441491B5183C40017E91F /* no_stays_video.mp4 */; };
+		FFC8712C46B22779FE003A33 /* Pods_YikesGuestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F898A7276DFFE893613444D /* Pods_YikesGuestApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F2BA7F91BFF8BBA00754A27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F2D9C0F1B3AFA9F00B56242 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2BA7E41BFF8BBA00754A27;
+			remoteInfo = YikesGuestAppSample;
+		};
+		3F2BA8041BFF8BBA00754A27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F2D9C0F1B3AFA9F00B56242 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2BA7E41BFF8BBA00754A27;
+			remoteInfo = YikesGuestAppSample;
+		};
+		3F6D63011BF530CF00857C0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F2D9C0F1B3AFA9F00B56242 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDB647A81B95339700D5B70D;
+			remoteInfo = YikesGuestApp;
+		};
+		A67F288B1BDFFFDF00330469 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F2D9C0F1B3AFA9F00B56242 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDB647A81B95339700D5B70D;
+			remoteInfo = YikesGuestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F2BA81B1BFF8BC900754A27 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3A4DDD81DCEA4800003705E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00BF53F90F7CBF1C9740BA6C /* Pods-YikesGuestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YikesGuestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YikesGuestApp/Pods-YikesGuestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		145F4F3898AF8D0B83FF86A0 /* Pods-YikesGuestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YikesGuestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-YikesGuestApp/Pods-YikesGuestApp.release.xcconfig"; sourceTree = "<group>"; };
+		2C8D1D9E1C7226BD00D32345 /* YKSTemporaryPwdVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKSTemporaryPwdVC.swift; sourceTree = "<group>"; };
+		2C9929121C727CEB003C21E1 /* NSString+YKSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YKSString.h"; sourceTree = "<group>"; };
+		2C9929131C727CEB003C21E1 /* NSString+YKSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YKSString.m"; sourceTree = "<group>"; };
+		2F898A7276DFFE893613444D /* Pods_YikesGuestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YikesGuestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		331B6A491B6C154900798914 /* YKSUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSUtilities.h; sourceTree = "<group>"; };
+		331B6A4A1B6C154900798914 /* YKSUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSUtilities.m; sourceTree = "<group>"; };
+		3F0535CF1BCBF81D00D0F572 /* YKSWalkthroughGetStartedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSWalkthroughGetStartedVC.h; sourceTree = "<group>"; };
+		3F0535D01BCBF81D00D0F572 /* YKSWalkthroughGetStartedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSWalkthroughGetStartedVC.m; sourceTree = "<group>"; };
+		3F0535D31BCBF84700D0F572 /* YKSWalkthroughGetStartedTC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSWalkthroughGetStartedTC.h; sourceTree = "<group>"; };
+		3F0535D41BCBF84700D0F572 /* YKSWalkthroughGetStartedTC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSWalkthroughGetStartedTC.m; sourceTree = "<group>"; };
+		3F11067D1BDA769500986E8F /* YKSForgotPasswordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSForgotPasswordVC.h; sourceTree = "<group>"; };
+		3F11067E1BDA769500986E8F /* YKSForgotPasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSForgotPasswordVC.m; sourceTree = "<group>"; };
+		3F2BA7E51BFF8BBA00754A27 /* YikesGuestAppSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YikesGuestAppSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2BA7E71BFF8BBA00754A27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F2BA7E91BFF8BBA00754A27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F2BA7EC1BFF8BBA00754A27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F2BA7EE1BFF8BBA00754A27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F2BA7F11BFF8BBA00754A27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F2BA7F31BFF8BBA00754A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2BA7F81BFF8BBA00754A27 /* YikesGuestAppSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YikesGuestAppSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2BA7FC1BFF8BBA00754A27 /* YikesGuestAppSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YikesGuestAppSampleTests.swift; sourceTree = "<group>"; };
+		3F2BA7FE1BFF8BBA00754A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2BA8031BFF8BBA00754A27 /* YikesGuestAppSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YikesGuestAppSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2BA8071BFF8BBA00754A27 /* YikesGuestAppSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YikesGuestAppSampleUITests.swift; sourceTree = "<group>"; };
+		3F2BA8091BFF8BBA00754A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2D9C1B1B3AFA9F00B56242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2D9C1C1B3AFA9F00B56242 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F2D9C1E1B3AFA9F00B56242 /* YKSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKSAppDelegate.h; sourceTree = "<group>"; };
+		3F2D9C1F1B3AFA9F00B56242 /* YKSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKSAppDelegate.m; sourceTree = "<group>"; };
+		3F2D9C251B3AFA9F00B56242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F2D9C271B3AFA9F00B56242 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		3F2D9C2A1B3AFA9F00B56242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3F2D9C301B3AFA9F00B56242 /* YikesGuestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YikesGuestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2D9C351B3AFA9F00B56242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2D9C361B3AFA9F00B56242 /* YikesGuestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YikesGuestAppTests.m; sourceTree = "<group>"; };
+		3F2D9C481B3B1A4200B56242 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F2D9C4A1B3B1A4900B56242 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F2D9C4F1B3B1B6100B56242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		3F2D9C571B3B252B00B56242 /* AppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppManager.h; sourceTree = "<group>"; };
+		3F2D9C581B3B252B00B56242 /* AppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppManager.m; sourceTree = "<group>"; };
+		3F2D9C5C1B3B25D500B56242 /* YKSTestAccounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSTestAccounts.h; sourceTree = "<group>"; };
+		3F2D9C5D1B3B25D500B56242 /* YKSTestAccounts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSTestAccounts.m; sourceTree = "<group>"; };
+		3F2D9C5F1B3B266B00B56242 /* YikesGuestApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YikesGuestApp-Prefix.pch"; sourceTree = "<group>"; };
+		3F30016A1B4EF18F002CA91F /* YKSSideBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSSideBarVC.h; sourceTree = "<group>"; };
+		3F30016B1B4EF18F002CA91F /* YKSSideBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSSideBarVC.m; sourceTree = "<group>"; };
+		3F3001711B50D243002CA91F /* YKSSettingsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSSettingsTVC.h; sourceTree = "<group>"; };
+		3F3001721B50D243002CA91F /* YKSSettingsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSSettingsTVC.m; sourceTree = "<group>"; };
+		3F3001741B50D83A002CA91F /* YKSSettingsNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSSettingsNC.h; sourceTree = "<group>"; };
+		3F3001751B50D83A002CA91F /* YKSSettingsNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSSettingsNC.m; sourceTree = "<group>"; };
+		3F3127C71C5FB46200295004 /* YKSBaseTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSBaseTVC.h; sourceTree = "<group>"; };
+		3F3127C81C5FB46200295004 /* YKSBaseTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSBaseTVC.m; sourceTree = "<group>"; };
+		3F3127CD1C5FB8B500295004 /* PasscodeTouchIdTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeTouchIdTVC.swift; sourceTree = "<group>"; };
+		3F3127CF1C5FB8C800295004 /* YikesGuestApp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YikesGuestApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		3F3127D61C60123F00295004 /* TroubleshootingTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TroubleshootingTVC.swift; sourceTree = "<group>"; };
+		3F38CF151B62806D007E2E42 /* YKSCountryPickerNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSCountryPickerNC.h; sourceTree = "<group>"; };
+		3F38CF161B62806D007E2E42 /* YKSCountryPickerNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSCountryPickerNC.m; sourceTree = "<group>"; };
+		3F5257791B5EA5EC00812071 /* YKSStayDetailsNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSStayDetailsNC.h; sourceTree = "<group>"; };
+		3F52577A1B5EA5EC00812071 /* YKSStayDetailsNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSStayDetailsNC.m; sourceTree = "<group>"; };
+		3F52577B1B5EA5EC00812071 /* YKSStayDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSStayDetailsVC.h; sourceTree = "<group>"; };
+		3F52577C1B5EA5EC00812071 /* YKSStayDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSStayDetailsVC.m; sourceTree = "<group>"; };
+		3F52577F1B5EED6D00812071 /* YKSStayDetailsTC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSStayDetailsTC.h; sourceTree = "<group>"; };
+		3F5257801B5EED6D00812071 /* YKSStayDetailsTC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSStayDetailsTC.m; sourceTree = "<group>"; };
+		3F5257851B61328B00812071 /* YKSCountryPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSCountryPicker.h; sourceTree = "<group>"; };
+		3F5257861B61328B00812071 /* YKSCountryPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSCountryPicker.m; sourceTree = "<group>"; };
+		3F5257881B61355700812071 /* YKSCountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSCountry.h; sourceTree = "<group>"; };
+		3F5257891B61355700812071 /* YKSCountry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSCountry.m; sourceTree = "<group>"; };
+		3F6202181E8D3A21007ADAAC /* YKSSPLocationManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YKSSPLocationManager.framework; path = yikesengine/YikesEngine/YKSSPLocationManager.framework; sourceTree = "<group>"; };
+		3F67264E1C84A7A0001ECA7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Walkthrough.storyboard; sourceTree = "<group>"; };
+		3F6726531C84A809001ECA7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Settings.storyboard; sourceTree = "<group>"; };
+		3F6726591C84AF7B001ECA7D /* AccountDetailsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountDetailsTVC.swift; sourceTree = "<group>"; };
+		3F6726601C84C93C001ECA7D /* AccountDetailsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountDetailsCell.swift; sourceTree = "<group>"; };
+		3F6D62FC1BF530CF00857C0E /* YikesGuestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YikesGuestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6D62FE1BF530CF00857C0E /* YikesGuestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YikesGuestAppUITests.swift; sourceTree = "<group>"; };
+		3F6D63001BF530CF00857C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F99BFB71BC2D87300012667 /* YKSContactPickerNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSContactPickerNC.h; sourceTree = "<group>"; };
+		3F99BFB81BC2D87300012667 /* YKSContactPickerNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSContactPickerNC.m; sourceTree = "<group>"; };
+		3F99BFB91BC2D87300012667 /* YKSContactPickerTC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSContactPickerTC.h; sourceTree = "<group>"; };
+		3F99BFBA1BC2D87300012667 /* YKSContactPickerTC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSContactPickerTC.m; sourceTree = "<group>"; };
+		3F99BFBB1BC2D87300012667 /* YKSContactPickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSContactPickerVC.h; sourceTree = "<group>"; };
+		3F99BFBC1BC2D87300012667 /* YKSContactPickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSContactPickerVC.m; sourceTree = "<group>"; };
+		3F99BFC71BC4331B00012667 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		3F99BFCE1BC4473700012667 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		3F99BFD01BC454D800012667 /* YKSImportContactsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSImportContactsVC.h; sourceTree = "<group>"; };
+		3F99BFD11BC454D800012667 /* YKSImportContactsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSImportContactsVC.m; sourceTree = "<group>"; };
+		3F9DE53C1D353395009A5072 /* YKSSignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKSSignUpVC.swift; sourceTree = "<group>"; };
+		3F9DE5F31D494CE8009A5072 /* unlock_door.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = unlock_door.mp4; sourceTree = "<group>"; };
+		3F9DE5FA1D494D3D009A5072 /* IndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndicatorView.h; sourceTree = "<group>"; };
+		3F9DE5FB1D494D3D009A5072 /* IndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndicatorView.m; sourceTree = "<group>"; };
+		3F9DE5FC1D494D3D009A5072 /* IndicatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IndicatorView.xib; sourceTree = "<group>"; };
+		3F9DE5FD1D494D3D009A5072 /* MultiplePulsingHaloLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiplePulsingHaloLayer.h; sourceTree = "<group>"; };
+		3F9DE5FE1D494D3D009A5072 /* MultiplePulsingHaloLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiplePulsingHaloLayer.m; sourceTree = "<group>"; };
+		3F9DE5FF1D494D3D009A5072 /* PulsingHaloLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PulsingHaloLayer.h; sourceTree = "<group>"; };
+		3F9DE6001D494D3D009A5072 /* PulsingHaloLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PulsingHaloLayer.m; sourceTree = "<group>"; };
+		3F9DE6011D494D3D009A5072 /* YKSAmenityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSAmenityViewController.h; sourceTree = "<group>"; };
+		3F9DE6021D494D3D009A5072 /* YKSAmenityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSAmenityViewController.m; sourceTree = "<group>"; };
+		3F9DE60D1D494DD1009A5072 /* UnlockDoorTipVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnlockDoorTipVC.swift; sourceTree = "<group>"; };
+		3FA639481C0E3A4F00E41D69 /* YKSAirplaneModeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSAirplaneModeVC.h; sourceTree = "<group>"; };
+		3FA639491C0E3A4F00E41D69 /* YKSAirplaneModeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSAirplaneModeVC.m; sourceTree = "<group>"; };
+		3FA6394B1C0E3BE800E41D69 /* YKSAirplaneModeTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSAirplaneModeTVC.h; sourceTree = "<group>"; };
+		3FA6394C1C0E3BE800E41D69 /* YKSAirplaneModeTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSAirplaneModeTVC.m; sourceTree = "<group>"; };
+		3FACB4AA1B580FD9000AE968 /* YKSDashboardCardVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSDashboardCardVC.h; sourceTree = "<group>"; };
+		3FACB4AB1B580FD9000AE968 /* YKSDashboardCardVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSDashboardCardVC.m; sourceTree = "<group>"; };
+		3FB5B68B1B3C78EB00C3BB10 /* YKSPhoneHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSPhoneHelper.h; sourceTree = "<group>"; };
+		3FB5B68C1B3C78EB00C3BB10 /* YKSPhoneHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSPhoneHelper.m; sourceTree = "<group>"; };
+		3FB5B6A41B3C7B4E00C3BB10 /* YKSLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSLoginVC.h; sourceTree = "<group>"; };
+		3FB5B6A51B3C7B4E00C3BB10 /* YKSLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSLoginVC.m; sourceTree = "<group>"; };
+		3FB5B6BA1B3C7B4E00C3BB10 /* YKSSignUpCompleted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSSignUpCompleted.h; sourceTree = "<group>"; };
+		3FB5B6BB1B3C7B4E00C3BB10 /* YKSSignUpCompleted.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSSignUpCompleted.m; sourceTree = "<group>"; };
+		3FB5B6D21B3DC8D900C3BB10 /* YKSHelpVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSHelpVC.h; sourceTree = "<group>"; };
+		3FB5B6D31B3DC8D900C3BB10 /* YKSHelpVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSHelpVC.m; sourceTree = "<group>"; };
+		3FB5B6DE1B41DCC400C3BB10 /* YKSDashboardVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSDashboardVC.h; sourceTree = "<group>"; };
+		3FB5B6DF1B41DCC400C3BB10 /* YKSDashboardVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSDashboardVC.m; sourceTree = "<group>"; };
+		3FB5B6E01B41DCC400C3BB10 /* YKSDashboardNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSDashboardNC.h; sourceTree = "<group>"; };
+		3FB5B6E11B41DCC400C3BB10 /* YKSDashboardNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSDashboardNC.m; sourceTree = "<group>"; };
+		3FB9A1FD1B963845004FB818 /* YKSNotificationsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSNotificationsVC.h; sourceTree = "<group>"; };
+		3FB9A1FE1B963845004FB818 /* YKSNotificationsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSNotificationsVC.m; sourceTree = "<group>"; };
+		3FB9A2011B96387F004FB818 /* YKSNotificationsNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSNotificationsNC.h; sourceTree = "<group>"; };
+		3FB9A2021B96387F004FB818 /* YKSNotificationsNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSNotificationsNC.m; sourceTree = "<group>"; };
+		3FB9A2051B963898004FB818 /* YKSNotificationsTC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSNotificationsTC.h; sourceTree = "<group>"; };
+		3FB9A2061B963898004FB818 /* YKSNotificationsTC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSNotificationsTC.m; sourceTree = "<group>"; };
+		3FC3CBDC1BC5B027003DE1D3 /* YKSWalkthroughVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSWalkthroughVC.h; sourceTree = "<group>"; };
+		3FC3CBDD1BC5B027003DE1D3 /* YKSWalkthroughVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSWalkthroughVC.m; sourceTree = "<group>"; };
+		3FC3CBE01BC5B069003DE1D3 /* YKSWalkthroughNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSWalkthroughNC.h; sourceTree = "<group>"; };
+		3FC3CBE11BC5B069003DE1D3 /* YKSWalkthroughNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSWalkthroughNC.m; sourceTree = "<group>"; };
+		3FC3CBE41BC5B0B0003DE1D3 /* YKSWalkthroughCardVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSWalkthroughCardVC.h; sourceTree = "<group>"; };
+		3FC3CBE51BC5B0B0003DE1D3 /* YKSWalkthroughCardVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSWalkthroughCardVC.m; sourceTree = "<group>"; };
+		3FC3CBE81BC6B0A8003DE1D3 /* peace_of_mind_animation.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = peace_of_mind_animation.mp4; sourceTree = "<group>"; };
+		3FCA07C11C6A40EA00E3D6BE /* MissingDeviceRequirementsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissingDeviceRequirementsVC.swift; sourceTree = "<group>"; };
+		3FD441461B5182DA0017E91F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		3FD441491B5183C40017E91F /* no_stays_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = no_stays_video.mp4; sourceTree = "<group>"; };
+		3FD4414B1B51F0410017E91F /* YKSLoginNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSLoginNC.h; sourceTree = "<group>"; };
+		3FD4414C1B51F0410017E91F /* YKSLoginNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSLoginNC.m; sourceTree = "<group>"; };
+		3FD47CF01B825BBC003DF9A5 /* ABPadButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABPadButton.h; sourceTree = "<group>"; };
+		3FD47CF11B825BBC003DF9A5 /* ABPadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABPadButton.m; sourceTree = "<group>"; };
+		3FD47CF21B825BBC003DF9A5 /* YKSPasscodeCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSPasscodeCircleView.h; sourceTree = "<group>"; };
+		3FD47CF31B825BBC003DF9A5 /* YKSPasscodeCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSPasscodeCircleView.m; sourceTree = "<group>"; };
+		3FD47CF41B825BBC003DF9A5 /* YKSPasscodeScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSPasscodeScreenVC.h; sourceTree = "<group>"; };
+		3FD47CF51B825BBC003DF9A5 /* YKSPasscodeScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSPasscodeScreenVC.m; sourceTree = "<group>"; };
+		3FD47CF61B825BBC003DF9A5 /* YKSPasscodeScreenVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YKSPasscodeScreenVC.xib; sourceTree = "<group>"; };
+		3FD47CFE1B8374E9003DF9A5 /* YKSApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSApplication.h; sourceTree = "<group>"; };
+		3FD47CFF1B8374E9003DF9A5 /* YKSApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSApplication.m; sourceTree = "<group>"; };
+		3FD7CA1B1B9498C6005053E4 /* YKSSharedKeysVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSSharedKeysVC.h; sourceTree = "<group>"; };
+		3FD7CA1C1B9498C6005053E4 /* YKSSharedKeysVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSSharedKeysVC.m; sourceTree = "<group>"; };
+		3FDB748E1C1F19A80037F001 /* DateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateHelper.h; sourceTree = "<group>"; };
+		3FDB748F1C1F19A80037F001 /* DateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateHelper.m; sourceTree = "<group>"; };
+		3FDB74901C1F19A80037F001 /* PKAlertYikesTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKAlertYikesTheme.h; sourceTree = "<group>"; };
+		3FDB74911C1F19A80037F001 /* PKAlertYikesTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKAlertYikesTheme.m; sourceTree = "<group>"; };
+		3FDB74921C1F19A80037F001 /* UIColor+YKSColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+YKSColor.h"; sourceTree = "<group>"; };
+		3FDB74931C1F19A80037F001 /* UIColor+YKSColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YKSColor.m"; sourceTree = "<group>"; };
+		3FDB74941C1F19A80037F001 /* YKSAssetsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSAssetsHelper.h; sourceTree = "<group>"; };
+		3FDB74951C1F19A80037F001 /* YKSAssetsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSAssetsHelper.m; sourceTree = "<group>"; };
+		3FDB74961C1F19A80037F001 /* YKSBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSBaseVC.h; sourceTree = "<group>"; };
+		3FDB74971C1F19A80037F001 /* YKSBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSBaseVC.m; sourceTree = "<group>"; };
+		3FDB74A51C1F229C0037F001 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		3FDB74A61C1F229C0037F001 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FDB74A81C1F229C0037F001 /* SVModalWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVModalWebViewController.h; sourceTree = "<group>"; };
+		3FDB74A91C1F229C0037F001 /* SVModalWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVModalWebViewController.m; sourceTree = "<group>"; };
+		3FDB74AA1C1F229C0037F001 /* SVWebViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVWebViewController.bundle; sourceTree = "<group>"; };
+		3FDB74AB1C1F229C0037F001 /* SVWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewController.h; sourceTree = "<group>"; };
+		3FDB74AC1C1F229C0037F001 /* SVWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewController.m; sourceTree = "<group>"; };
+		3FDB74AF1C1F229C0037F001 /* SVWebViewControllerActivityChrome-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivityChrome-iPad.png"; sourceTree = "<group>"; };
+		3FDB74B01C1F229C0037F001 /* SVWebViewControllerActivityChrome-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivityChrome-iPad@2x.png"; sourceTree = "<group>"; };
+		3FDB74B11C1F229C0037F001 /* SVWebViewControllerActivityChrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewControllerActivityChrome.h; sourceTree = "<group>"; };
+		3FDB74B21C1F229C0037F001 /* SVWebViewControllerActivityChrome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerActivityChrome.m; sourceTree = "<group>"; };
+		3FDB74B31C1F229C0037F001 /* SVWebViewControllerActivityChrome@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivityChrome@2x.png"; sourceTree = "<group>"; };
+		3FDB74B51C1F229C0037F001 /* SVWebViewControllerActivitySafari-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivitySafari-iPad.png"; sourceTree = "<group>"; };
+		3FDB74B61C1F229C0037F001 /* SVWebViewControllerActivitySafari-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivitySafari-iPad@2x.png"; sourceTree = "<group>"; };
+		3FDB74B71C1F229C0037F001 /* SVWebViewControllerActivitySafari.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewControllerActivitySafari.h; sourceTree = "<group>"; };
+		3FDB74B81C1F229C0037F001 /* SVWebViewControllerActivitySafari.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerActivitySafari.m; sourceTree = "<group>"; };
+		3FDB74B91C1F229C0037F001 /* SVWebViewControllerActivitySafari@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivitySafari@2x.png"; sourceTree = "<group>"; };
+		3FDB74BA1C1F229C0037F001 /* SVWebViewControllerActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewControllerActivity.h; sourceTree = "<group>"; };
+		3FDB74BB1C1F229C0037F001 /* SVWebViewControllerActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerActivity.m; sourceTree = "<group>"; };
+		3FE574B31BDFBD0100A99973 /* YKSLicenseAgreementVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSLicenseAgreementVC.h; sourceTree = "<group>"; };
+		3FE574B41BDFBD0100A99973 /* YKSLicenseAgreementVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSLicenseAgreementVC.m; sourceTree = "<group>"; };
+		3FE574B61BDFBE8800A99973 /* YKSLicenseAgreementNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSLicenseAgreementNC.h; sourceTree = "<group>"; };
+		3FE574B71BDFBE8800A99973 /* YKSLicenseAgreementNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSLicenseAgreementNC.m; sourceTree = "<group>"; };
+		3FE574B91BDFDA8E00A99973 /* EULA.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = EULA.html; sourceTree = "<group>"; };
+		3FFCF6FE1B51700700CC7F59 /* YKSNoStaysVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSNoStaysVC.h; sourceTree = "<group>"; };
+		3FFCF6FF1B51700700CC7F59 /* YKSNoStaysVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSNoStaysVC.m; sourceTree = "<group>"; };
+		3FFDE0811B94D3EC0021DE4B /* YKSDashboardCardOptionsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSDashboardCardOptionsVC.h; sourceTree = "<group>"; };
+		3FFDE0821B94D3EC0021DE4B /* YKSDashboardCardOptionsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSDashboardCardOptionsVC.m; sourceTree = "<group>"; };
+		3FFDE0841B94E3D10021DE4B /* YKSSharedKeysNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSSharedKeysNC.h; sourceTree = "<group>"; };
+		3FFDE0851B94E3D10021DE4B /* YKSSharedKeysNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSSharedKeysNC.m; sourceTree = "<group>"; };
+		3FFDE0871B94F8180021DE4B /* YKSSharedKeysTC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKSSharedKeysTC.h; sourceTree = "<group>"; };
+		3FFDE0881B94F8180021DE4B /* YKSSharedKeysTC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKSSharedKeysTC.m; sourceTree = "<group>"; };
+		5C2E6073F87362D98585DB85 /* Pods-YKSLocationManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKSLocationManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-YKSLocationManager/Pods-YKSLocationManager.release.xcconfig"; sourceTree = "<group>"; };
+		8B57FFC71BA759C800B79C4E /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		C34E1E9B1DD4E9CF0046112C /* YKSSPLocationManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YKSSPLocationManager.framework; path = ../yikesengine/YikesEngine/YKSSPLocationManager.framework; sourceTree = "<group>"; };
+		C3610B5D1DDA57B300E6358B /* failure.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = failure.caf; sourceTree = "<group>"; };
+		C3610B5E1DDA57B300E6358B /* success.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.caf; sourceTree = "<group>"; };
+		C3610B611DDA607600E6358B /* congestion.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = congestion.caf; sourceTree = "<group>"; };
+		C3610B621DDA607600E6358B /* start.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = start.caf; sourceTree = "<group>"; };
+		C3610B631DDA607600E6358B /* stop.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = stop.caf; sourceTree = "<group>"; };
+		C3610B641DDA607600E6358B /* tick.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tick.caf; sourceTree = "<group>"; };
+		E8621441610B168FBDF5F723 /* Pods-YKSLocationManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKSLocationManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YKSLocationManager/Pods-YKSLocationManager.debug.xcconfig"; sourceTree = "<group>"; };
+		ED0FBC291B4F53B700C8A5AB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		ED3128821B582C0B0067F747 /* YikesGuestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = YikesGuestApp.entitlements; sourceTree = "<group>"; };
+		EDA0A1111BD42C440077EC5A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		EDB647E91B95339700D5B70D /* YikesGuestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YikesGuestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F2BA7E21BFF8BBA00754A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2BA7F51BFF8BBA00754A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2BA8001BFF8BBA00754A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2D9C2D1B3AFA9F00B56242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6D62F91BF530CF00857C0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB647D21B95339700D5B70D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6202191E8D3A21007ADAAC /* YKSSPLocationManager.framework in Frameworks */,
+				C3EF8FCC1DCEC68B00C81A9E /* libz.tbd in Frameworks */,
+				3F99BFCF1BC4473700012667 /* AddressBook.framework in Frameworks */,
+				3F99BFC81BC4331B00012667 /* Contacts.framework in Frameworks */,
+				EDB647D31B95339700D5B70D /* MediaPlayer.framework in Frameworks */,
+				EDB647D41B95339700D5B70D /* Foundation.framework in Frameworks */,
+				EDB647D71B95339700D5B70D /* UIKit.framework in Frameworks */,
+				FFC8712C46B22779FE003A33 /* Pods_YikesGuestApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185AB8A76A76C206DD7B7A38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00BF53F90F7CBF1C9740BA6C /* Pods-YikesGuestApp.debug.xcconfig */,
+				145F4F3898AF8D0B83FF86A0 /* Pods-YikesGuestApp.release.xcconfig */,
+				E8621441610B168FBDF5F723 /* Pods-YKSLocationManager.debug.xcconfig */,
+				5C2E6073F87362D98585DB85 /* Pods-YKSLocationManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3F0535CE1BCBF81D00D0F572 /* GetStarted */ = {
+			isa = PBXGroup;
+			children = (
+				3F0535CF1BCBF81D00D0F572 /* YKSWalkthroughGetStartedVC.h */,
+				3F0535D01BCBF81D00D0F572 /* YKSWalkthroughGetStartedVC.m */,
+				3F0535D31BCBF84700D0F572 /* YKSWalkthroughGetStartedTC.h */,
+				3F0535D41BCBF84700D0F572 /* YKSWalkthroughGetStartedTC.m */,
+			);
+			path = GetStarted;
+			sourceTree = "<group>";
+		};
+		3F2BA7E61BFF8BBA00754A27 /* YikesGuestAppSample */ = {
+			isa = PBXGroup;
+			children = (
+				3F2BA7E71BFF8BBA00754A27 /* AppDelegate.swift */,
+				3F2BA7E91BFF8BBA00754A27 /* ViewController.swift */,
+				3F2BA7EB1BFF8BBA00754A27 /* Main.storyboard */,
+				3F2BA7EE1BFF8BBA00754A27 /* Assets.xcassets */,
+				3F2BA7F01BFF8BBA00754A27 /* LaunchScreen.storyboard */,
+				3F2BA7F31BFF8BBA00754A27 /* Info.plist */,
+			);
+			path = YikesGuestAppSample;
+			sourceTree = "<group>";
+		};
+		3F2BA7FB1BFF8BBA00754A27 /* YikesGuestAppSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F2BA7FC1BFF8BBA00754A27 /* YikesGuestAppSampleTests.swift */,
+				3F2BA7FE1BFF8BBA00754A27 /* Info.plist */,
+			);
+			path = YikesGuestAppSampleTests;
+			sourceTree = "<group>";
+		};
+		3F2BA8061BFF8BBA00754A27 /* YikesGuestAppSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F2BA8071BFF8BBA00754A27 /* YikesGuestAppSampleUITests.swift */,
+				3F2BA8091BFF8BBA00754A27 /* Info.plist */,
+			);
+			path = YikesGuestAppSampleUITests;
+			sourceTree = "<group>";
+		};
+		3F2D9C0E1B3AFA9F00B56242 = {
+			isa = PBXGroup;
+			children = (
+				ED0FBC291B4F53B700C8A5AB /* README.md */,
+				3F2D9C191B3AFA9F00B56242 /* YikesGuestApp */,
+				3F2D9C331B3AFA9F00B56242 /* YikesGuestAppTests */,
+				3F6D62FD1BF530CF00857C0E /* YikesGuestAppUITests */,
+				3F2BA7E61BFF8BBA00754A27 /* YikesGuestAppSample */,
+				3F2BA7FB1BFF8BBA00754A27 /* YikesGuestAppSampleTests */,
+				3F2BA8061BFF8BBA00754A27 /* YikesGuestAppSampleUITests */,
+				3F2D9C4C1B3B1AAD00B56242 /* Frameworks */,
+				3F2D9C181B3AFA9F00B56242 /* Products */,
+				185AB8A76A76C206DD7B7A38 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3F2D9C181B3AFA9F00B56242 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F2D9C301B3AFA9F00B56242 /* YikesGuestAppTests.xctest */,
+				EDB647E91B95339700D5B70D /* YikesGuestApp.app */,
+				3F6D62FC1BF530CF00857C0E /* YikesGuestAppUITests.xctest */,
+				3F2BA7E51BFF8BBA00754A27 /* YikesGuestAppSample.app */,
+				3F2BA7F81BFF8BBA00754A27 /* YikesGuestAppSampleTests.xctest */,
+				3F2BA8031BFF8BBA00754A27 /* YikesGuestAppSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F2D9C191B3AFA9F00B56242 /* YikesGuestApp */ = {
+			isa = PBXGroup;
+			children = (
+				ED3128821B582C0B0067F747 /* YikesGuestApp.entitlements */,
+				3FD47CFE1B8374E9003DF9A5 /* YKSApplication.h */,
+				3FD47CFF1B8374E9003DF9A5 /* YKSApplication.m */,
+				3F2D9C1E1B3AFA9F00B56242 /* YKSAppDelegate.h */,
+				3F2D9C1F1B3AFA9F00B56242 /* YKSAppDelegate.m */,
+				3F2D9C571B3B252B00B56242 /* AppManager.h */,
+				3F2D9C581B3B252B00B56242 /* AppManager.m */,
+				3F3001691B4EF18F002CA91F /* SideBar */,
+				3FB5B6A31B3C7B4E00C3BB10 /* Login */,
+				3FB5B6A61B3C7B4E00C3BB10 /* SignUp */,
+				3FB5B6DD1B41DCC400C3BB10 /* Dashboard */,
+				3FCA07C01C6A40EA00E3D6BE /* MissingDeviceRequirements */,
+				3FB9A1FC1B963845004FB818 /* Notifications */,
+				3F3001701B50D243002CA91F /* Settings */,
+				3FD47CEF1B825BBC003DF9A5 /* Passcode */,
+				3FC3CBD61BC5AFCE003DE1D3 /* Walkthrough */,
+				3FE574B21BDFBA0D00A99973 /* EULA */,
+				3FA639451C0E3A3000E41D69 /* AirplaneMode */,
+				3FDB748D1C1F19A80037F001 /* Misc */,
+				3F2D9C5C1B3B25D500B56242 /* YKSTestAccounts.h */,
+				3F2D9C5D1B3B25D500B56242 /* YKSTestAccounts.m */,
+				3FB5B68B1B3C78EB00C3BB10 /* YKSPhoneHelper.h */,
+				3FB5B68C1B3C78EB00C3BB10 /* YKSPhoneHelper.m */,
+				3F2D9C4D1B3B1B4C00B56242 /* Storyboards */,
+				3FD441481B5183C40017E91F /* Resources */,
+				3F2D9C1A1B3AFA9F00B56242 /* Supporting Files */,
+				331B6A491B6C154900798914 /* YKSUtilities.h */,
+				331B6A4A1B6C154900798914 /* YKSUtilities.m */,
+			);
+			path = YikesGuestApp;
+			sourceTree = "<group>";
+		};
+		3F2D9C1A1B3AFA9F00B56242 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F2D9C1B1B3AFA9F00B56242 /* Info.plist */,
+				3F2D9C1C1B3AFA9F00B56242 /* main.m */,
+				3F2D9C5F1B3B266B00B56242 /* YikesGuestApp-Prefix.pch */,
+				3F3127CF1C5FB8C800295004 /* YikesGuestApp-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F2D9C331B3AFA9F00B56242 /* YikesGuestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F2D9C361B3AFA9F00B56242 /* YikesGuestAppTests.m */,
+				3F2D9C341B3AFA9F00B56242 /* Supporting Files */,
+			);
+			path = YikesGuestAppTests;
+			sourceTree = "<group>";
+		};
+		3F2D9C341B3AFA9F00B56242 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F2D9C351B3AFA9F00B56242 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F2D9C4C1B3B1AAD00B56242 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F6202181E8D3A21007ADAAC /* YKSSPLocationManager.framework */,
+				C34E1E9B1DD4E9CF0046112C /* YKSSPLocationManager.framework */,
+				EDA0A1111BD42C440077EC5A /* libz.tbd */,
+				3F99BFCE1BC4473700012667 /* AddressBook.framework */,
+				3F99BFC71BC4331B00012667 /* Contacts.framework */,
+				8B57FFC71BA759C800B79C4E /* ReplayKit.framework */,
+				3FD441461B5182DA0017E91F /* MediaPlayer.framework */,
+				3F2D9C4A1B3B1A4900B56242 /* Foundation.framework */,
+				3F2D9C481B3B1A4200B56242 /* UIKit.framework */,
+				2F898A7276DFFE893613444D /* Pods_YikesGuestApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F2D9C4D1B3B1B4C00B56242 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3F2D9C291B3AFA9F00B56242 /* LaunchScreen.xib */,
+				3F2D9C241B3AFA9F00B56242 /* Main.storyboard */,
+				3F2D9C4E1B3B1B6100B56242 /* Login.storyboard */,
+				3F67264D1C84A7A0001ECA7D /* Walkthrough.storyboard */,
+				3F6726521C84A809001ECA7D /* Settings.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		3F3001691B4EF18F002CA91F /* SideBar */ = {
+			isa = PBXGroup;
+			children = (
+				3F30016A1B4EF18F002CA91F /* YKSSideBarVC.h */,
+				3F30016B1B4EF18F002CA91F /* YKSSideBarVC.m */,
+			);
+			path = SideBar;
+			sourceTree = "<group>";
+		};
+		3F3001701B50D243002CA91F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3F67265F1C84C93C001ECA7D /* Cells */,
+				3F3001741B50D83A002CA91F /* YKSSettingsNC.h */,
+				3F3001751B50D83A002CA91F /* YKSSettingsNC.m */,
+				3F3001711B50D243002CA91F /* YKSSettingsTVC.h */,
+				3F3001721B50D243002CA91F /* YKSSettingsTVC.m */,
+				3F3127CD1C5FB8B500295004 /* PasscodeTouchIdTVC.swift */,
+				3F3127D61C60123F00295004 /* TroubleshootingTVC.swift */,
+				3F6726591C84AF7B001ECA7D /* AccountDetailsTVC.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3F5257781B5EA5EC00812071 /* StayDetails */ = {
+			isa = PBXGroup;
+			children = (
+				3F5257791B5EA5EC00812071 /* YKSStayDetailsNC.h */,
+				3F52577A1B5EA5EC00812071 /* YKSStayDetailsNC.m */,
+				3F52577B1B5EA5EC00812071 /* YKSStayDetailsVC.h */,
+				3F52577C1B5EA5EC00812071 /* YKSStayDetailsVC.m */,
+				3F52577F1B5EED6D00812071 /* YKSStayDetailsTC.h */,
+				3F5257801B5EED6D00812071 /* YKSStayDetailsTC.m */,
+			);
+			path = StayDetails;
+			sourceTree = "<group>";
+		};
+		3F67265F1C84C93C001ECA7D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3F6726601C84C93C001ECA7D /* AccountDetailsCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3F6D62FD1BF530CF00857C0E /* YikesGuestAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F6D62FE1BF530CF00857C0E /* YikesGuestAppUITests.swift */,
+				3F6D63001BF530CF00857C0E /* Info.plist */,
+			);
+			path = YikesGuestAppUITests;
+			sourceTree = "<group>";
+		};
+		3F99BFB61BC2D87300012667 /* ContactPicker */ = {
+			isa = PBXGroup;
+			children = (
+				3F99BFB71BC2D87300012667 /* YKSContactPickerNC.h */,
+				3F99BFB81BC2D87300012667 /* YKSContactPickerNC.m */,
+				3F99BFBB1BC2D87300012667 /* YKSContactPickerVC.h */,
+				3F99BFBC1BC2D87300012667 /* YKSContactPickerVC.m */,
+				3F99BFB91BC2D87300012667 /* YKSContactPickerTC.h */,
+				3F99BFBA1BC2D87300012667 /* YKSContactPickerTC.m */,
+				3F99BFD01BC454D800012667 /* YKSImportContactsVC.h */,
+				3F99BFD11BC454D800012667 /* YKSImportContactsVC.m */,
+			);
+			path = ContactPicker;
+			sourceTree = "<group>";
+		};
+		3F9DE5F91D494D3D009A5072 /* AmenityDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				3F9DE5FA1D494D3D009A5072 /* IndicatorView.h */,
+				3F9DE5FB1D494D3D009A5072 /* IndicatorView.m */,
+				3F9DE5FC1D494D3D009A5072 /* IndicatorView.xib */,
+				3F9DE5FD1D494D3D009A5072 /* MultiplePulsingHaloLayer.h */,
+				3F9DE5FE1D494D3D009A5072 /* MultiplePulsingHaloLayer.m */,
+				3F9DE5FF1D494D3D009A5072 /* PulsingHaloLayer.h */,
+				3F9DE6001D494D3D009A5072 /* PulsingHaloLayer.m */,
+				3F9DE6011D494D3D009A5072 /* YKSAmenityViewController.h */,
+				3F9DE6021D494D3D009A5072 /* YKSAmenityViewController.m */,
+			);
+			path = AmenityDisplay;
+			sourceTree = "<group>";
+		};
+		3FA639451C0E3A3000E41D69 /* AirplaneMode */ = {
+			isa = PBXGroup;
+			children = (
+				3FA639481C0E3A4F00E41D69 /* YKSAirplaneModeVC.h */,
+				3FA639491C0E3A4F00E41D69 /* YKSAirplaneModeVC.m */,
+				3FA6394B1C0E3BE800E41D69 /* YKSAirplaneModeTVC.h */,
+				3FA6394C1C0E3BE800E41D69 /* YKSAirplaneModeTVC.m */,
+			);
+			path = AirplaneMode;
+			sourceTree = "<group>";
+		};
+		3FB5B6A31B3C7B4E00C3BB10 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3FD4414B1B51F0410017E91F /* YKSLoginNC.h */,
+				3FD4414C1B51F0410017E91F /* YKSLoginNC.m */,
+				3FB5B6D21B3DC8D900C3BB10 /* YKSHelpVC.h */,
+				3FB5B6D31B3DC8D900C3BB10 /* YKSHelpVC.m */,
+				3FB5B6A41B3C7B4E00C3BB10 /* YKSLoginVC.h */,
+				3FB5B6A51B3C7B4E00C3BB10 /* YKSLoginVC.m */,
+				3F11067D1BDA769500986E8F /* YKSForgotPasswordVC.h */,
+				3F11067E1BDA769500986E8F /* YKSForgotPasswordVC.m */,
+				2C8D1D9E1C7226BD00D32345 /* YKSTemporaryPwdVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3FB5B6A61B3C7B4E00C3BB10 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				3FB5B6A71B3C7B4E00C3BB10 /* Country Picker */,
+				3F9DE53C1D353395009A5072 /* YKSSignUpVC.swift */,
+				3FB5B6BA1B3C7B4E00C3BB10 /* YKSSignUpCompleted.h */,
+				3FB5B6BB1B3C7B4E00C3BB10 /* YKSSignUpCompleted.m */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		3FB5B6A71B3C7B4E00C3BB10 /* Country Picker */ = {
+			isa = PBXGroup;
+			children = (
+				3F5257881B61355700812071 /* YKSCountry.h */,
+				3F5257891B61355700812071 /* YKSCountry.m */,
+				3F38CF151B62806D007E2E42 /* YKSCountryPickerNC.h */,
+				3F38CF161B62806D007E2E42 /* YKSCountryPickerNC.m */,
+				3F5257851B61328B00812071 /* YKSCountryPicker.h */,
+				3F5257861B61328B00812071 /* YKSCountryPicker.m */,
+			);
+			path = "Country Picker";
+			sourceTree = "<group>";
+		};
+		3FB5B6DD1B41DCC400C3BB10 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				3F9DE5F91D494D3D009A5072 /* AmenityDisplay */,
+				3FD7CA1A1B9498C6005053E4 /* SharedKeys */,
+				3F5257781B5EA5EC00812071 /* StayDetails */,
+				3FB5B6E01B41DCC400C3BB10 /* YKSDashboardNC.h */,
+				3FB5B6E11B41DCC400C3BB10 /* YKSDashboardNC.m */,
+				3FB5B6DE1B41DCC400C3BB10 /* YKSDashboardVC.h */,
+				3FB5B6DF1B41DCC400C3BB10 /* YKSDashboardVC.m */,
+				3FACB4AA1B580FD9000AE968 /* YKSDashboardCardVC.h */,
+				3FACB4AB1B580FD9000AE968 /* YKSDashboardCardVC.m */,
+				3FFDE0811B94D3EC0021DE4B /* YKSDashboardCardOptionsVC.h */,
+				3FFDE0821B94D3EC0021DE4B /* YKSDashboardCardOptionsVC.m */,
+				3FFCF6FE1B51700700CC7F59 /* YKSNoStaysVC.h */,
+				3FFCF6FF1B51700700CC7F59 /* YKSNoStaysVC.m */,
+				3F9DE60D1D494DD1009A5072 /* UnlockDoorTipVC.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		3FB9A1FC1B963845004FB818 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				3FB9A2011B96387F004FB818 /* YKSNotificationsNC.h */,
+				3FB9A2021B96387F004FB818 /* YKSNotificationsNC.m */,
+				3FB9A1FD1B963845004FB818 /* YKSNotificationsVC.h */,
+				3FB9A1FE1B963845004FB818 /* YKSNotificationsVC.m */,
+				3FB9A2051B963898004FB818 /* YKSNotificationsTC.h */,
+				3FB9A2061B963898004FB818 /* YKSNotificationsTC.m */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		3FC3CBD61BC5AFCE003DE1D3 /* Walkthrough */ = {
+			isa = PBXGroup;
+			children = (
+				3F0535CE1BCBF81D00D0F572 /* GetStarted */,
+				3FC3CBE01BC5B069003DE1D3 /* YKSWalkthroughNC.h */,
+				3FC3CBE11BC5B069003DE1D3 /* YKSWalkthroughNC.m */,
+				3FC3CBDC1BC5B027003DE1D3 /* YKSWalkthroughVC.h */,
+				3FC3CBDD1BC5B027003DE1D3 /* YKSWalkthroughVC.m */,
+				3FC3CBE41BC5B0B0003DE1D3 /* YKSWalkthroughCardVC.h */,
+				3FC3CBE51BC5B0B0003DE1D3 /* YKSWalkthroughCardVC.m */,
+			);
+			path = Walkthrough;
+			sourceTree = "<group>";
+		};
+		3FCA07C01C6A40EA00E3D6BE /* MissingDeviceRequirements */ = {
+			isa = PBXGroup;
+			children = (
+				3FCA07C11C6A40EA00E3D6BE /* MissingDeviceRequirementsVC.swift */,
+			);
+			path = MissingDeviceRequirements;
+			sourceTree = "<group>";
+		};
+		3FD441481B5183C40017E91F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3610B611DDA607600E6358B /* congestion.caf */,
+				C3610B621DDA607600E6358B /* start.caf */,
+				C3610B631DDA607600E6358B /* stop.caf */,
+				C3610B641DDA607600E6358B /* tick.caf */,
+				C3610B5D1DDA57B300E6358B /* failure.caf */,
+				C3610B5E1DDA57B300E6358B /* success.caf */,
+				3F2D9C271B3AFA9F00B56242 /* Images.xcassets */,
+				3F9DE5F31D494CE8009A5072 /* unlock_door.mp4 */,
+				3FC3CBE81BC6B0A8003DE1D3 /* peace_of_mind_animation.mp4 */,
+				3FD441491B5183C40017E91F /* no_stays_video.mp4 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3FD47CEF1B825BBC003DF9A5 /* Passcode */ = {
+			isa = PBXGroup;
+			children = (
+				3FD47CF01B825BBC003DF9A5 /* ABPadButton.h */,
+				3FD47CF11B825BBC003DF9A5 /* ABPadButton.m */,
+				3FD47CF21B825BBC003DF9A5 /* YKSPasscodeCircleView.h */,
+				3FD47CF31B825BBC003DF9A5 /* YKSPasscodeCircleView.m */,
+				3FD47CF41B825BBC003DF9A5 /* YKSPasscodeScreenVC.h */,
+				3FD47CF51B825BBC003DF9A5 /* YKSPasscodeScreenVC.m */,
+				3FD47CF61B825BBC003DF9A5 /* YKSPasscodeScreenVC.xib */,
+			);
+			path = Passcode;
+			sourceTree = "<group>";
+		};
+		3FD7CA1A1B9498C6005053E4 /* SharedKeys */ = {
+			isa = PBXGroup;
+			children = (
+				3F99BFB61BC2D87300012667 /* ContactPicker */,
+				3FFDE0841B94E3D10021DE4B /* YKSSharedKeysNC.h */,
+				3FFDE0851B94E3D10021DE4B /* YKSSharedKeysNC.m */,
+				3FD7CA1B1B9498C6005053E4 /* YKSSharedKeysVC.h */,
+				3FD7CA1C1B9498C6005053E4 /* YKSSharedKeysVC.m */,
+				3FFDE0871B94F8180021DE4B /* YKSSharedKeysTC.h */,
+				3FFDE0881B94F8180021DE4B /* YKSSharedKeysTC.m */,
+			);
+			path = SharedKeys;
+			sourceTree = "<group>";
+		};
+		3FDB748D1C1F19A80037F001 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				3FDB74A41C1F229C0037F001 /* SVWebViewController */,
+				3FDB748E1C1F19A80037F001 /* DateHelper.h */,
+				3FDB748F1C1F19A80037F001 /* DateHelper.m */,
+				3FDB74901C1F19A80037F001 /* PKAlertYikesTheme.h */,
+				3FDB74911C1F19A80037F001 /* PKAlertYikesTheme.m */,
+				3FDB74921C1F19A80037F001 /* UIColor+YKSColor.h */,
+				3FDB74931C1F19A80037F001 /* UIColor+YKSColor.m */,
+				3FDB74941C1F19A80037F001 /* YKSAssetsHelper.h */,
+				3FDB74951C1F19A80037F001 /* YKSAssetsHelper.m */,
+				3FDB74961C1F19A80037F001 /* YKSBaseVC.h */,
+				3FDB74971C1F19A80037F001 /* YKSBaseVC.m */,
+				3F3127C71C5FB46200295004 /* YKSBaseTVC.h */,
+				3F3127C81C5FB46200295004 /* YKSBaseTVC.m */,
+				2C9929121C727CEB003C21E1 /* NSString+YKSString.h */,
+				2C9929131C727CEB003C21E1 /* NSString+YKSString.m */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		3FDB74A41C1F229C0037F001 /* SVWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3FDB74A51C1F229C0037F001 /* LICENSE.txt */,
+				3FDB74A61C1F229C0037F001 /* README.md */,
+				3FDB74A71C1F229C0037F001 /* SVWebViewController */,
+			);
+			path = SVWebViewController;
+			sourceTree = "<group>";
+		};
+		3FDB74A71C1F229C0037F001 /* SVWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3FDB74A81C1F229C0037F001 /* SVModalWebViewController.h */,
+				3FDB74A91C1F229C0037F001 /* SVModalWebViewController.m */,
+				3FDB74AA1C1F229C0037F001 /* SVWebViewController.bundle */,
+				3FDB74AB1C1F229C0037F001 /* SVWebViewController.h */,
+				3FDB74AC1C1F229C0037F001 /* SVWebViewController.m */,
+				3FDB74AD1C1F229C0037F001 /* UIActivities */,
+			);
+			path = SVWebViewController;
+			sourceTree = "<group>";
+		};
+		3FDB74AD1C1F229C0037F001 /* UIActivities */ = {
+			isa = PBXGroup;
+			children = (
+				3FDB74AE1C1F229C0037F001 /* Chrome */,
+				3FDB74B41C1F229C0037F001 /* Safari */,
+				3FDB74BA1C1F229C0037F001 /* SVWebViewControllerActivity.h */,
+				3FDB74BB1C1F229C0037F001 /* SVWebViewControllerActivity.m */,
+			);
+			path = UIActivities;
+			sourceTree = "<group>";
+		};
+		3FDB74AE1C1F229C0037F001 /* Chrome */ = {
+			isa = PBXGroup;
+			children = (
+				3FDB74AF1C1F229C0037F001 /* SVWebViewControllerActivityChrome-iPad.png */,
+				3FDB74B01C1F229C0037F001 /* SVWebViewControllerActivityChrome-iPad@2x.png */,
+				3FDB74B11C1F229C0037F001 /* SVWebViewControllerActivityChrome.h */,
+				3FDB74B21C1F229C0037F001 /* SVWebViewControllerActivityChrome.m */,
+				3FDB74B31C1F229C0037F001 /* SVWebViewControllerActivityChrome@2x.png */,
+			);
+			path = Chrome;
+			sourceTree = "<group>";
+		};
+		3FDB74B41C1F229C0037F001 /* Safari */ = {
+			isa = PBXGroup;
+			children = (
+				3FDB74B51C1F229C0037F001 /* SVWebViewControllerActivitySafari-iPad.png */,
+				3FDB74B61C1F229C0037F001 /* SVWebViewControllerActivitySafari-iPad@2x.png */,
+				3FDB74B71C1F229C0037F001 /* SVWebViewControllerActivitySafari.h */,
+				3FDB74B81C1F229C0037F001 /* SVWebViewControllerActivitySafari.m */,
+				3FDB74B91C1F229C0037F001 /* SVWebViewControllerActivitySafari@2x.png */,
+			);
+			path = Safari;
+			sourceTree = "<group>";
+		};
+		3FE574B21BDFBA0D00A99973 /* EULA */ = {
+			isa = PBXGroup;
+			children = (
+				3FE574B91BDFDA8E00A99973 /* EULA.html */,
+				3FE574B61BDFBE8800A99973 /* YKSLicenseAgreementNC.h */,
+				3FE574B71BDFBE8800A99973 /* YKSLicenseAgreementNC.m */,
+				3FE574B31BDFBD0100A99973 /* YKSLicenseAgreementVC.h */,
+				3FE574B41BDFBD0100A99973 /* YKSLicenseAgreementVC.m */,
+			);
+			path = EULA;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F2BA7E41BFF8BBA00754A27 /* YikesGuestAppSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F2BA80A1BFF8BBA00754A27 /* Build configuration list for PBXNativeTarget "YikesGuestAppSample" */;
+			buildPhases = (
+				3F2BA7E11BFF8BBA00754A27 /* Sources */,
+				3F2BA7E21BFF8BBA00754A27 /* Frameworks */,
+				3F2BA7E31BFF8BBA00754A27 /* Resources */,
+				3F2BA81B1BFF8BC900754A27 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YikesGuestAppSample;
+			productName = YikesGuestAppSample;
+			productReference = 3F2BA7E51BFF8BBA00754A27 /* YikesGuestAppSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F2BA7F71BFF8BBA00754A27 /* YikesGuestAppSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F2BA80D1BFF8BBA00754A27 /* Build configuration list for PBXNativeTarget "YikesGuestAppSampleTests" */;
+			buildPhases = (
+				3F2BA7F41BFF8BBA00754A27 /* Sources */,
+				3F2BA7F51BFF8BBA00754A27 /* Frameworks */,
+				3F2BA7F61BFF8BBA00754A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F2BA7FA1BFF8BBA00754A27 /* PBXTargetDependency */,
+			);
+			name = YikesGuestAppSampleTests;
+			productName = YikesGuestAppSampleTests;
+			productReference = 3F2BA7F81BFF8BBA00754A27 /* YikesGuestAppSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F2BA8021BFF8BBA00754A27 /* YikesGuestAppSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F2BA8101BFF8BBA00754A27 /* Build configuration list for PBXNativeTarget "YikesGuestAppSampleUITests" */;
+			buildPhases = (
+				3F2BA7FF1BFF8BBA00754A27 /* Sources */,
+				3F2BA8001BFF8BBA00754A27 /* Frameworks */,
+				3F2BA8011BFF8BBA00754A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F2BA8051BFF8BBA00754A27 /* PBXTargetDependency */,
+			);
+			name = YikesGuestAppSampleUITests;
+			productName = YikesGuestAppSampleUITests;
+			productReference = 3F2BA8031BFF8BBA00754A27 /* YikesGuestAppSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3F2D9C2F1B3AFA9F00B56242 /* YikesGuestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F2D9C3D1B3AFA9F00B56242 /* Build configuration list for PBXNativeTarget "YikesGuestAppTests" */;
+			buildPhases = (
+				3F2D9C2C1B3AFA9F00B56242 /* Sources */,
+				3F2D9C2D1B3AFA9F00B56242 /* Frameworks */,
+				3F2D9C2E1B3AFA9F00B56242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A67F288C1BDFFFDF00330469 /* PBXTargetDependency */,
+			);
+			name = YikesGuestAppTests;
+			productName = YikesGuestAppTests;
+			productReference = 3F2D9C301B3AFA9F00B56242 /* YikesGuestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F6D62FB1BF530CF00857C0E /* YikesGuestAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6D63031BF530CF00857C0E /* Build configuration list for PBXNativeTarget "YikesGuestAppUITests" */;
+			buildPhases = (
+				3F6D62F81BF530CF00857C0E /* Sources */,
+				3F6D62F91BF530CF00857C0E /* Frameworks */,
+				3F6D62FA1BF530CF00857C0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F6D63021BF530CF00857C0E /* PBXTargetDependency */,
+			);
+			name = YikesGuestAppUITests;
+			productName = YikesGuestAppUITests;
+			productReference = 3F6D62FC1BF530CF00857C0E /* YikesGuestAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		EDB647A81B95339700D5B70D /* YikesGuestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB647E61B95339700D5B70D /* Build configuration list for PBXNativeTarget "YikesGuestApp" */;
+			buildPhases = (
+				B9C9DEE1ED58AE5C2D084BF3 /* [CP] Check Pods Manifest.lock */,
+				EDB647AA1B95339700D5B70D /* Sources */,
+				EDB647D21B95339700D5B70D /* Frameworks */,
+				EDB647DA1B95339700D5B70D /* Resources */,
+				EDB647E51B95339700D5B70D /* Fabric Script */,
+				A1C82B192EEA267241C4A1B2 /* [CP] Embed Pods Frameworks */,
+				8D33F8FBADAF670AA304A5BB /* [CP] Copy Pods Resources */,
+				C3A4DDD81DCEA4800003705E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YikesGuestApp;
+			productName = YikesGuestApp;
+			productReference = EDB647E91B95339700D5B70D /* YikesGuestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F2D9C0F1B3AFA9F00B56242 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = yikes;
+				TargetAttributes = {
+					3F2BA7E41BFF8BBA00754A27 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					3F2BA7F71BFF8BBA00754A27 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 3F2BA7E41BFF8BBA00754A27;
+					};
+					3F2BA8021BFF8BBA00754A27 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 3F2BA7E41BFF8BBA00754A27;
+					};
+					3F2D9C2F1B3AFA9F00B56242 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = EDB647A81B95339700D5B70D;
+					};
+					3F6D62FB1BF530CF00857C0E = {
+						CreatedOnToolsVersion = 7.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = EDB647A81B95339700D5B70D;
+					};
+					EDB647A81B95339700D5B70D = {
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3F2D9C121B3AFA9F00B56242 /* Build configuration list for PBXProject "YikesGuestApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F2D9C0E1B3AFA9F00B56242;
+			productRefGroup = 3F2D9C181B3AFA9F00B56242 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDB647A81B95339700D5B70D /* YikesGuestApp */,
+				3F2D9C2F1B3AFA9F00B56242 /* YikesGuestAppTests */,
+				3F6D62FB1BF530CF00857C0E /* YikesGuestAppUITests */,
+				3F2BA7E41BFF8BBA00754A27 /* YikesGuestAppSample */,
+				3F2BA7F71BFF8BBA00754A27 /* YikesGuestAppSampleTests */,
+				3F2BA8021BFF8BBA00754A27 /* YikesGuestAppSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F2BA7E31BFF8BBA00754A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2BA7F21BFF8BBA00754A27 /* LaunchScreen.storyboard in Resources */,
+				3F2BA7EF1BFF8BBA00754A27 /* Assets.xcassets in Resources */,
+				3F2BA7ED1BFF8BBA00754A27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2BA7F61BFF8BBA00754A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2BA8011BFF8BBA00754A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2D9C2E1B3AFA9F00B56242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6D62FA1BF530CF00857C0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB647DA1B95339700D5B70D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3610B651DDA626800E6358B /* congestion.caf in Resources */,
+				C3610B661DDA626800E6358B /* start.caf in Resources */,
+				C3610B671DDA626800E6358B /* stop.caf in Resources */,
+				C3610B681DDA626800E6358B /* tick.caf in Resources */,
+				EDB647DC1B95339700D5B70D /* Login.storyboard in Resources */,
+				3F9DE5F41D494CE8009A5072 /* unlock_door.mp4 in Resources */,
+				3F6726541C84A809001ECA7D /* Settings.storyboard in Resources */,
+				3FE574BA1BDFDA8E00A99973 /* EULA.html in Resources */,
+				EDB647DD1B95339700D5B70D /* YKSPasscodeScreenVC.xib in Resources */,
+				3F67264F1C84A7A0001ECA7D /* Walkthrough.storyboard in Resources */,
+				3FDB74C21C1F229C0037F001 /* SVWebViewControllerActivityChrome-iPad@2x.png in Resources */,
+				3FDB74C81C1F229C0037F001 /* SVWebViewControllerActivitySafari@2x.png in Resources */,
+				3FC3CBE91BC6B0A8003DE1D3 /* peace_of_mind_animation.mp4 in Resources */,
+				EDB647DF1B95339700D5B70D /* Main.storyboard in Resources */,
+				C3610B5F1DDA57B300E6358B /* failure.caf in Resources */,
+				3F9DE6051D494D3D009A5072 /* IndicatorView.xib in Resources */,
+				EDB647E01B95339700D5B70D /* LaunchScreen.xib in Resources */,
+				EDB647E11B95339700D5B70D /* Images.xcassets in Resources */,
+				C3610B601DDA57B300E6358B /* success.caf in Resources */,
+				3FDB74C11C1F229C0037F001 /* SVWebViewControllerActivityChrome-iPad.png in Resources */,
+				3FB2C68C1C7CBD5300C3A3C7 /* YikesGuestApp.entitlements in Resources */,
+				3FDB74C51C1F229C0037F001 /* SVWebViewControllerActivitySafari-iPad.png in Resources */,
+				EDB647E31B95339700D5B70D /* no_stays_video.mp4 in Resources */,
+				3FDB74C41C1F229C0037F001 /* SVWebViewControllerActivityChrome@2x.png in Resources */,
+				3FDB74C61C1F229C0037F001 /* SVWebViewControllerActivitySafari-iPad@2x.png in Resources */,
+				3FDB74BF1C1F229C0037F001 /* SVWebViewController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D33F8FBADAF670AA304A5BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YikesGuestApp/Pods-YikesGuestApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1C82B192EEA267241C4A1B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YikesGuestApp/Pods-YikesGuestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9C9DEE1ED58AE5C2D084BF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EDB647E51B95339700D5B70D /* Fabric Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Fabric Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/Fabric/run 4fa28d590cbaa9730fd684f7440b6ca2af6dabf5 ed70cfdcd128c7d8e6e9999775f4ce166617bc9118f31c785c19265c628acd62";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F2BA7E11BFF8BBA00754A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2BA7EA1BFF8BBA00754A27 /* ViewController.swift in Sources */,
+				3F2BA7E81BFF8BBA00754A27 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2BA7F41BFF8BBA00754A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2BA7FD1BFF8BBA00754A27 /* YikesGuestAppSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2BA7FF1BFF8BBA00754A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2BA8081BFF8BBA00754A27 /* YikesGuestAppSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2D9C2C1B3AFA9F00B56242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2D9C371B3AFA9F00B56242 /* YikesGuestAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6D62F81BF530CF00857C0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6D62FF1BF530CF00857C0E /* YikesGuestAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB647AA1B95339700D5B70D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA6394D1C0E3BE800E41D69 /* YKSAirplaneModeTVC.m in Sources */,
+				3F0535D51BCBF84700D0F572 /* YKSWalkthroughGetStartedTC.m in Sources */,
+				EDB647AB1B95339700D5B70D /* YKSLoginVC.m in Sources */,
+				3FDB74991C1F19A80037F001 /* PKAlertYikesTheme.m in Sources */,
+				3F6726611C84C93C001ECA7D /* AccountDetailsCell.swift in Sources */,
+				EDB647AC1B95339700D5B70D /* YKSCountryPicker.m in Sources */,
+				EDB647AD1B95339700D5B70D /* YKSApplication.m in Sources */,
+				EDB647AF1B95339700D5B70D /* YKSAppDelegate.m in Sources */,
+				EDB647B11B95339700D5B70D /* YKSDashboardVC.m in Sources */,
+				3FDB74981C1F19A80037F001 /* DateHelper.m in Sources */,
+				3FDB749A1C1F19A80037F001 /* UIColor+YKSColor.m in Sources */,
+				3FDB74C71C1F229C0037F001 /* SVWebViewControllerActivitySafari.m in Sources */,
+				EDB647B21B95339700D5B70D /* YKSHelpVC.m in Sources */,
+				3F3127C91C5FB46200295004 /* YKSBaseTVC.m in Sources */,
+				3FA6394A1C0E3A4F00E41D69 /* YKSAirplaneModeVC.m in Sources */,
+				EDB647B31B95339700D5B70D /* YKSSettingsTVC.m in Sources */,
+				EDB647B41B95339700D5B70D /* main.m in Sources */,
+				EDB647B51B95339700D5B70D /* YKSCountryPickerNC.m in Sources */,
+				3FAE57B91B9634C5004BECA0 /* YKSSharedKeysVC.m in Sources */,
+				EDB647B61B95339700D5B70D /* YKSTestAccounts.m in Sources */,
+				3FCA07C21C6A40EA00E3D6BE /* MissingDeviceRequirementsVC.swift in Sources */,
+				EDB647B71B95339700D5B70D /* ABPadButton.m in Sources */,
+				3FC3CBE61BC5B0B0003DE1D3 /* YKSWalkthroughCardVC.m in Sources */,
+				3FB9A2041B96387F004FB818 /* YKSNotificationsNC.m in Sources */,
+				EDB647B91B95339700D5B70D /* YKSCountry.m in Sources */,
+				3F99BFBD1BC2D87300012667 /* YKSContactPickerNC.m in Sources */,
+				EDB647BA1B95339700D5B70D /* YKSPasscodeScreenVC.m in Sources */,
+				EDB647BB1B95339700D5B70D /* YKSSignUpCompleted.m in Sources */,
+				3F99BFD21BC454D800012667 /* YKSImportContactsVC.m in Sources */,
+				EDB647BD1B95339700D5B70D /* YKSPasscodeCircleView.m in Sources */,
+				3FDB749B1C1F19A80037F001 /* YKSAssetsHelper.m in Sources */,
+				3F9DE53D1D353395009A5072 /* YKSSignUpVC.swift in Sources */,
+				3FAE57BA1B9634C7004BECA0 /* YKSSharedKeysTC.m in Sources */,
+				EDB647C01B95339700D5B70D /* YKSLoginNC.m in Sources */,
+				3FE574B51BDFBD0100A99973 /* YKSLicenseAgreementVC.m in Sources */,
+				3F11067F1BDA769500986E8F /* YKSForgotPasswordVC.m in Sources */,
+				3FDB74C01C1F229C0037F001 /* SVWebViewController.m in Sources */,
+				EDB647C11B95339700D5B70D /* AppManager.m in Sources */,
+				EDB647C21B95339700D5B70D /* YKSSettingsNC.m in Sources */,
+				3FAE57B81B9634C2004BECA0 /* YKSSharedKeysNC.m in Sources */,
+				3F9DE6091D494D3D009A5072 /* PulsingHaloLayer.m in Sources */,
+				3F67265A1C84AF7B001ECA7D /* AccountDetailsTVC.swift in Sources */,
+				3FDB74C31C1F229C0037F001 /* SVWebViewControllerActivityChrome.m in Sources */,
+				3FDB74BE1C1F229C0037F001 /* SVModalWebViewController.m in Sources */,
+				3F9DE60B1D494D3D009A5072 /* YKSAmenityViewController.m in Sources */,
+				3FC3CBDE1BC5B027003DE1D3 /* YKSWalkthroughVC.m in Sources */,
+				EDB647C41B95339700D5B70D /* YKSDashboardCardVC.m in Sources */,
+				EDB647C51B95339700D5B70D /* YKSSideBarVC.m in Sources */,
+				3FDB74C91C1F229C0037F001 /* SVWebViewControllerActivity.m in Sources */,
+				EDB647C61B95339700D5B70D /* YKSNoStaysVC.m in Sources */,
+				3F3127CE1C5FB8B500295004 /* PasscodeTouchIdTVC.swift in Sources */,
+				3FAE57BB1B9634E5004BECA0 /* YKSDashboardCardOptionsVC.m in Sources */,
+				EDB647CA1B95339700D5B70D /* YKSStayDetailsNC.m in Sources */,
+				3FE574B81BDFBE8800A99973 /* YKSLicenseAgreementNC.m in Sources */,
+				2C8D1D9F1C7226BD00D32345 /* YKSTemporaryPwdVC.swift in Sources */,
+				3F9DE6071D494D3D009A5072 /* MultiplePulsingHaloLayer.m in Sources */,
+				3FDB749C1C1F19A80037F001 /* YKSBaseVC.m in Sources */,
+				EDB647CC1B95339700D5B70D /* YKSPhoneHelper.m in Sources */,
+				3F3127D71C60123F00295004 /* TroubleshootingTVC.swift in Sources */,
+				3FB9A2081B963898004FB818 /* YKSNotificationsTC.m in Sources */,
+				3F9DE6031D494D3D009A5072 /* IndicatorView.m in Sources */,
+				3F9DE60E1D494DD1009A5072 /* UnlockDoorTipVC.swift in Sources */,
+				3FB9A2001B963845004FB818 /* YKSNotificationsVC.m in Sources */,
+				3FC3CBE21BC5B069003DE1D3 /* YKSWalkthroughNC.m in Sources */,
+				EDB647CE1B95339700D5B70D /* YKSUtilities.m in Sources */,
+				3F99BFBF1BC2D87300012667 /* YKSContactPickerTC.m in Sources */,
+				3F99BFC11BC2D87300012667 /* YKSContactPickerVC.m in Sources */,
+				EDB647CF1B95339700D5B70D /* YKSDashboardNC.m in Sources */,
+				3F0535D11BCBF81D00D0F572 /* YKSWalkthroughGetStartedVC.m in Sources */,
+				EDB647D01B95339700D5B70D /* YKSStayDetailsTC.m in Sources */,
+				EDB647D11B95339700D5B70D /* YKSStayDetailsVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F2BA7FA1BFF8BBA00754A27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F2BA7E41BFF8BBA00754A27 /* YikesGuestAppSample */;
+			targetProxy = 3F2BA7F91BFF8BBA00754A27 /* PBXContainerItemProxy */;
+		};
+		3F2BA8051BFF8BBA00754A27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F2BA7E41BFF8BBA00754A27 /* YikesGuestAppSample */;
+			targetProxy = 3F2BA8041BFF8BBA00754A27 /* PBXContainerItemProxy */;
+		};
+		3F6D63021BF530CF00857C0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDB647A81B95339700D5B70D /* YikesGuestApp */;
+			targetProxy = 3F6D63011BF530CF00857C0E /* PBXContainerItemProxy */;
+		};
+		A67F288C1BDFFFDF00330469 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDB647A81B95339700D5B70D /* YikesGuestApp */;
+			targetProxy = A67F288B1BDFFFDF00330469 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F2BA7EB1BFF8BBA00754A27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F2BA7EC1BFF8BBA00754A27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F2BA7F01BFF8BBA00754A27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F2BA7F11BFF8BBA00754A27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3F2D9C241B3AFA9F00B56242 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F2D9C251B3AFA9F00B56242 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F2D9C291B3AFA9F00B56242 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F2D9C2A1B3AFA9F00B56242 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		3F2D9C4E1B3B1B6100B56242 /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F2D9C4F1B3B1B6100B56242 /* Base */,
+			);
+			name = Login.storyboard;
+			sourceTree = "<group>";
+		};
+		3F67264D1C84A7A0001ECA7D /* Walkthrough.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F67264E1C84A7A0001ECA7D /* Base */,
+			);
+			name = Walkthrough.storyboard;
+			sourceTree = "<group>";
+		};
+		3F6726521C84A809001ECA7D /* Settings.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F6726531C84A809001ECA7D /* Base */,
+			);
+			name = Settings.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F2BA80B1BFF8BBA00754A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = YikesGuestAppSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yikesteam.YikesGuestAppSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F2BA80C1BFF8BBA00754A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = YikesGuestAppSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yikesteam.YikesGuestAppSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F2BA80E1BFF8BBA00754A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = YikesGuestAppSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yikesteam.YikesGuestAppSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YikesGuestAppSample.app/YikesGuestAppSample";
+			};
+			name = Debug;
+		};
+		3F2BA80F1BFF8BBA00754A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = YikesGuestAppSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yikesteam.YikesGuestAppSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YikesGuestAppSample.app/YikesGuestAppSample";
+			};
+			name = Release;
+		};
+		3F2BA8111BFF8BBA00754A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = YikesGuestAppSampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yikesteam.YikesGuestAppSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YikesGuestAppSample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3F2BA8121BFF8BBA00754A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = YikesGuestAppSampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yikesteam.YikesGuestAppSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YikesGuestAppSample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		3F2D9C381B3AFA9F00B56242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F2D9C391B3AFA9F00B56242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F2D9C3E1B3AFA9F00B56242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YikesGuestAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YikesGuestApp.app/YikesGuestApp";
+			};
+			name = Debug;
+		};
+		3F2D9C3F1B3AFA9F00B56242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YikesGuestAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YikesGuestApp.app/YikesGuestApp";
+			};
+			name = Release;
+		};
+		3F6D63041BF530CF00857C0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = YikesGuestApp/YikesGuestApp.entitlements;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = YikesGuestAppUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yikesteam.YikesGuestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YikesGuestApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3F6D63051BF530CF00857C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = YikesGuestApp/YikesGuestApp.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = YikesGuestAppUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yikesteam.YikesGuestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YikesGuestApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		EDB647E71B95339700D5B70D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00BF53F90F7CBF1C9740BA6C /* Pods-YikesGuestApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				COCOAPODS_PARALLEL_CODE_SIGN = true;
+				CODE_SIGN_ENTITLEMENTS = YikesGuestApp/YikesGuestApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LC489JD2L3;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/../yikesengine/YikesEngine",
+					"$(PROJECT_DIR)/yikesengine/YikesEngine",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YikesGuestApp/YikesGuestApp-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/1PasswordExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/1PasswordExtension/OnePasswordExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/AHEasing\"",
+					"\"${PODS_ROOT}/Headers/Public/CRToast\"",
+					"\"${PODS_ROOT}/Headers/Public/Colours\"",
+					"\"${PODS_ROOT}/Headers/Public/HexColors\"",
+					"\"${PODS_ROOT}/Headers/Public/MMDrawerController\"",
+					"\"${PODS_ROOT}/Headers/Public/PKAlertController\"",
+					"\"${PODS_ROOT}/Headers/Public/PubNub\"",
+					"\"${PODS_ROOT}/Headers/Public/SCPageViewController\"",
+					"\"${PODS_ROOT}/Headers/Public/SCScrollView\"",
+					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/libPhoneNumber-iOS\"",
+				);
+				INFOPLIST_FILE = YikesGuestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/YikesGuestApp",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -DDEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yikesteam.yikes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Guest App Development";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "YikesGuestApp/YikesGuestApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0.1;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		EDB647E81B95339700D5B70D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 145F4F3898AF8D0B83FF86A0 /* Pods-YikesGuestApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				COCOAPODS_PARALLEL_CODE_SIGN = true;
+				CODE_SIGN_ENTITLEMENTS = YikesGuestApp/YikesGuestApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = LC489JD2L3;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/../yikesengine/YikesEngine",
+					"$(PROJECT_DIR)/yikesengine/YikesEngine",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YikesGuestApp/YikesGuestApp-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/1PasswordExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/1PasswordExtension/OnePasswordExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/AHEasing\"",
+					"\"${PODS_ROOT}/Headers/Public/CRToast\"",
+					"\"${PODS_ROOT}/Headers/Public/Colours\"",
+					"\"${PODS_ROOT}/Headers/Public/HexColors\"",
+					"\"${PODS_ROOT}/Headers/Public/MMDrawerController\"",
+					"\"${PODS_ROOT}/Headers/Public/PKAlertController\"",
+					"\"${PODS_ROOT}/Headers/Public/PubNub\"",
+					"\"${PODS_ROOT}/Headers/Public/SCPageViewController\"",
+					"\"${PODS_ROOT}/Headers/Public/SCScrollView\"",
+					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/libPhoneNumber-iOS\"",
+				);
+				INFOPLIST_FILE = YikesGuestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/YikesGuestApp",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -DRELEASE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yikesteam.yikes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cfaefc1d-dbce-4058-a4f8-11d1642aeb36";
+				PROVISIONING_PROFILE_SPECIFIER = "yikes Guest App AdHoc (Roger)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "YikesGuestApp/YikesGuestApp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0.1;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F2BA80A1BFF8BBA00754A27 /* Build configuration list for PBXNativeTarget "YikesGuestAppSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2BA80B1BFF8BBA00754A27 /* Debug */,
+				3F2BA80C1BFF8BBA00754A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F2BA80D1BFF8BBA00754A27 /* Build configuration list for PBXNativeTarget "YikesGuestAppSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2BA80E1BFF8BBA00754A27 /* Debug */,
+				3F2BA80F1BFF8BBA00754A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F2BA8101BFF8BBA00754A27 /* Build configuration list for PBXNativeTarget "YikesGuestAppSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2BA8111BFF8BBA00754A27 /* Debug */,
+				3F2BA8121BFF8BBA00754A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F2D9C121B3AFA9F00B56242 /* Build configuration list for PBXProject "YikesGuestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2D9C381B3AFA9F00B56242 /* Debug */,
+				3F2D9C391B3AFA9F00B56242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F2D9C3D1B3AFA9F00B56242 /* Build configuration list for PBXNativeTarget "YikesGuestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2D9C3E1B3AFA9F00B56242 /* Debug */,
+				3F2D9C3F1B3AFA9F00B56242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F6D63031BF530CF00857C0E /* Build configuration list for PBXNativeTarget "YikesGuestAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6D63041BF530CF00857C0E /* Debug */,
+				3F6D63051BF530CF00857C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB647E61B95339700D5B70D /* Build configuration list for PBXNativeTarget "YikesGuestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB647E71B95339700D5B70D /* Debug */,
+				EDB647E81B95339700D5B70D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F2D9C0F1B3AFA9F00B56242 /* Project object */;
+}
